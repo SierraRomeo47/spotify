@@ -248,7 +248,8 @@ sierra_romeo_editorial_lab/
 ├── web/                   # Next.js → Vercel production
 │   ├── app/               # Routes: home, discovery, culture, curate, role-fit
 │   ├── public/data/portfolio.json
-│   └── vercel.json
+│   └── next.config.mjs    # output: export → web/out for Vercel
+├── vercel.json            # GitHub 1-click deploy from repo root
 ├── .vercelignore
 ├── config.py
 ├── exportify_loader.py
