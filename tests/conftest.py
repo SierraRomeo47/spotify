@@ -15,7 +15,7 @@ load_dotenv(ROOT / ".env")
 
 @pytest.fixture(autouse=True)
 def disable_auto_bootstrap(monkeypatch):
-    """Avoid loading real data / Spotify OAuth when tests import app."""
+    """Avoid loading real data / Spotify OAuth when tests import streamlit_app."""
     monkeypatch.setattr("config.AUTO_BOOTSTRAP_DATA", False)
 
 

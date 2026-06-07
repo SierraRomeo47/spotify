@@ -1,5 +1,5 @@
-# Streamlit / Python backend — not deployed to Vercel (Next.js lives in web/)
-app.py
+# Python / Streamlit — local only (production site is static export in web/out)
+streamlit_app.py
 pages/
 scripts/
 tests/

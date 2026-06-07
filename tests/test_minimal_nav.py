@@ -34,6 +34,6 @@ def test_watchlist_display_columns(api_fixture_bundle):
 
 
 def test_app_imports_five_pages():
-    import app  # noqa: F401
+    import streamlit_app  # noqa: F401
 
-    assert app
+    assert streamlit_app

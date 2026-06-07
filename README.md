@@ -100,7 +100,7 @@ pip install -r requirements.txt
 ### Run
 
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ### Verify Spotify connection
@@ -136,7 +136,7 @@ On startup the app automatically:
 
 ### First use
 
-1. Run `streamlit run app.py` — library loads automatically.
+1. Run `streamlit run streamlit_app.py` — library loads automatically.
 2. Complete Spotify login in the browser on first visit (one-time).
 3. Open Discovery, Culture, Curate, and Role Fit — data should be populated (`exportify` or `api+exportify`).
 
@@ -194,7 +194,7 @@ Open http://localhost:3000 — default landing is **Role Fit** (`/` redirects th
 ### 3. Deploy
 
 1. Push to GitHub — Vercel redeploys automatically from `main`.
-2. **No dashboard setup required:** root [`vercel.json`](vercel.json) runs `cd web && npm run build` and serves static files from `web/out`. [`.vercelignore`](.vercelignore) excludes Streamlit `app.py`.
+2. **No dashboard setup required:** root [`vercel.json`](vercel.json) uses `@vercel/static-build` on `web/package.json` (Next.js static export → `web/out`). [`.vercelignore`](.vercelignore) excludes Streamlit and Python files so Vercel never tries a Python entrypoint.
 3. Optional: [Vercel](https://vercel.com) → Project Settings → set **Root Directory** to `web` instead if you prefer the Next.js preset (remove root `vercel.json` in that case).
 4. Enable **Vercel Authentication** or password protection for recruiter access.
 5. No `SPOTIPY_*` env vars needed on Vercel (read-only snapshot).
@@ -242,7 +242,7 @@ This project analyzes **personal listening data locally**. Do not publish raw li
 
 ```
 sierra_romeo_editorial_lab/
-├── app.py                 # Local Streamlit lab (data refresh)
+├── streamlit_app.py       # Local Streamlit lab (data refresh)
 ├── portfolio_site_builder.py
 ├── scripts/build_site_data.py
 ├── web/                   # Next.js → Vercel production
