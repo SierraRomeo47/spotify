@@ -194,7 +194,7 @@ Open http://localhost:3000 — default landing is **Role Fit** (`/` redirects th
 ### 3. Deploy
 
 1. Push to a **private** GitHub repo (include `portfolio.json` and `web/package-lock.json`).
-2. [Vercel](https://vercel.com) → Import project → **Root Directory must stay at repo root (`.`)** — do not set it to `web` with the current `vercel.json`.
+2. [Vercel](https://vercel.com) → Import [SierraRomeo47/spotify](https://github.com/SierraRomeo47/spotify) → set **Root Directory** to `web` (Next.js lives there; `web/vercel.json` sets the framework).
 3. Enable **Vercel Authentication** or password protection for recruiter access.
 4. No `SPOTIPY_*` env vars needed on Vercel (read-only snapshot).
 
@@ -246,8 +246,8 @@ sierra_romeo_editorial_lab/
 ├── scripts/build_site_data.py
 ├── web/                   # Next.js → Vercel production
 │   ├── app/               # Routes: home, discovery, culture, curate, role-fit
-│   └── public/data/portfolio.json
-├── vercel.json
+│   ├── public/data/portfolio.json
+│   └── vercel.json
 ├── config.py
 ├── exportify_loader.py
 ├── spotify_auth.py

@@ -22,3 +22,4 @@ Thumbs.db
 # Private portfolio data — committed to private repo only
 !my_spotify_data/
 !spotify_playlists/
+.vercel
