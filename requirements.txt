@@ -1,0 +1,9 @@
+streamlit>=1.33.0
+spotipy
+pandas
+numpy
+plotly
+python-dotenv
+Pillow
+requests
+pytest>=7.0.0

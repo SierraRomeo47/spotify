@@ -1,0 +1,24 @@
+.env
+.spotify_cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+/env/
+.pytest_cache/
+outputs/*.csv
+outputs/*.md
+data/enrichment_cache.json
+web/node_modules/
+web/.next/
+!web/public/data/portfolio.json
+!.gitkeep
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+
+# Private portfolio data — committed to private repo only
+!my_spotify_data/
+!spotify_playlists/

@@ -1,0 +1,1906 @@
+{
+  "stats" : [ {
+    "date" : "2026-05-18",
+    "streamCount" : 0,
+    "secondsPlayed" : 0,
+    "topTracks" : [ {
+      "name" : "Muhuuuuu",
+      "streamCount" : 13,
+      "secondsPlayed" : 1896
+    }, {
+      "name" : "She Don't Dance",
+      "streamCount" : 10,
+      "secondsPlayed" : 2009
+    }, {
+      "name" : "GFY",
+      "streamCount" : 10,
+      "secondsPlayed" : 1652
+    }, {
+      "name" : "I Follow Rivers - The Magician Remix",
+      "streamCount" : 8,
+      "secondsPlayed" : 1976
+    }, {
+      "name" : "They Don't Love It",
+      "streamCount" : 8,
+      "secondsPlayed" : 858
+    }, {
+      "name" : "Cornfield Chase",
+      "streamCount" : 7,
+      "secondsPlayed" : 964
+    }, {
+      "name" : "Lights Burn Dimmer",
+      "streamCount" : 6,
+      "secondsPlayed" : 980
+    }, {
+      "name" : "Big City Life",
+      "streamCount" : 6,
+      "secondsPlayed" : 819
+    }, {
+      "name" : "The Rapture Pt.III",
+      "streamCount" : 5,
+      "secondsPlayed" : 717
+    }, {
+      "name" : "Starting Again",
+      "streamCount" : 4,
+      "secondsPlayed" : 1142
+    } ],
+    "topArtists" : [ {
+      "name" : "Fred again..",
+      "streamCount" : 27,
+      "secondsPlayed" : 5252
+    }, {
+      "name" : "&ME",
+      "streamCount" : 18,
+      "secondsPlayed" : 3505
+    }, {
+      "name" : "Lazare",
+      "streamCount" : 13,
+      "secondsPlayed" : 1896
+    }, {
+      "name" : "Everyone You Know",
+      "streamCount" : 12,
+      "secondsPlayed" : 2401
+    }, {
+      "name" : "Dennis Lloyd",
+      "streamCount" : 11,
+      "secondsPlayed" : 1696
+    }, {
+      "name" : "Jack Harlow",
+      "streamCount" : 10,
+      "secondsPlayed" : 993
+    }, {
+      "name" : "Lykke Li",
+      "streamCount" : 8,
+      "secondsPlayed" : 1976
+    }, {
+      "name" : "AP Dhillon",
+      "streamCount" : 8,
+      "secondsPlayed" : 1101
+    }, {
+      "name" : "ItsArius",
+      "streamCount" : 7,
+      "secondsPlayed" : 964
+    }, {
+      "name" : "Shubh",
+      "streamCount" : 7,
+      "secondsPlayed" : 945
+    } ],
+    "topGenres" : [ ]
+  }, {
+    "date" : "2026-05-11",
+    "streamCount" : 0,
+    "secondsPlayed" : 0,
+    "topTracks" : [ {
+      "name" : "Heartless - Swinghouse Session - 2009",
+      "streamCount" : 25,
+      "secondsPlayed" : 6068
+    }, {
+      "name" : "Black Rose",
+      "streamCount" : 19,
+      "secondsPlayed" : 4790
+    }, {
+      "name" : "Bairan",
+      "streamCount" : 19,
+      "secondsPlayed" : 2656
+    }, {
+      "name" : "STORM II",
+      "streamCount" : 15,
+      "secondsPlayed" : 2173
+    }, {
+      "name" : "TRIPPIN",
+      "streamCount" : 11,
+      "secondsPlayed" : 1761
+    }, {
+      "name" : "Hoping (Herbert's High Dub)",
+      "streamCount" : 6,
+      "secondsPlayed" : 1540
+    }, {
+      "name" : "Time in the Afternoon",
+      "streamCount" : 3,
+      "secondsPlayed" : 454
+    }, {
+      "name" : "Lights Burn Dimmer",
+      "streamCount" : 3,
+      "secondsPlayed" : 419
+    }, {
+      "name" : "Little by Little",
+      "streamCount" : 2,
+      "secondsPlayed" : 522
+    }, {
+      "name" : "Karibu",
+      "streamCount" : 2,
+      "secondsPlayed" : 485
+    } ],
+    "topArtists" : [ {
+      "name" : "The Fray",
+      "streamCount" : 25,
+      "secondsPlayed" : 6068
+    }, {
+      "name" : "Solomun",
+      "streamCount" : 19,
+      "secondsPlayed" : 4790
+    }, {
+      "name" : "Banjaare",
+      "streamCount" : 19,
+      "secondsPlayed" : 2656
+    }, {
+      "name" : "GENER8ION",
+      "streamCount" : 15,
+      "secondsPlayed" : 2173
+    }, {
+      "name" : "Fred again..",
+      "streamCount" : 13,
+      "secondsPlayed" : 2130
+    }, {
+      "name" : "BUNT.",
+      "streamCount" : 11,
+      "secondsPlayed" : 1761
+    }, {
+      "name" : "Yung Lean",
+      "streamCount" : 17,
+      "secondsPlayed" : 2356
+    }, {
+      "name" : "Louie Austen",
+      "streamCount" : 6,
+      "secondsPlayed" : 1540
+    }, {
+      "name" : "Mapei",
+      "streamCount" : 11,
+      "secondsPlayed" : 1761
+    }, {
+      "name" : "heylucas",
+      "streamCount" : 4,
+      "secondsPlayed" : 688
+    } ],
+    "topGenres" : [ ]
+  }, {
+    "date" : "2026-05-04",
+    "streamCount" : 0,
+    "secondsPlayed" : 0,
+    "topTracks" : [ {
+      "name" : "It's Called: Freefall",
+      "streamCount" : 163,
+      "secondsPlayed" : 24352
+    }, {
+      "name" : "STORM II",
+      "streamCount" : 65,
+      "secondsPlayed" : 10279
+    }, {
+      "name" : "GFY",
+      "streamCount" : 47,
+      "secondsPlayed" : 8466
+    }, {
+      "name" : "Voilà",
+      "streamCount" : 31,
+      "secondsPlayed" : 5002
+    }, {
+      "name" : "Bairan",
+      "streamCount" : 24,
+      "secondsPlayed" : 3812
+    }, {
+      "name" : "Indecision",
+      "streamCount" : 20,
+      "secondsPlayed" : 4343
+    }, {
+      "name" : "In Da Club",
+      "streamCount" : 17,
+      "secondsPlayed" : 3000
+    }, {
+      "name" : "TRIPPIN",
+      "streamCount" : 7,
+      "secondsPlayed" : 1552
+    }, {
+      "name" : "Lights Burn Dimmer",
+      "streamCount" : 6,
+      "secondsPlayed" : 1338
+    }, {
+      "name" : "TRIPPIN - Opera Edit",
+      "streamCount" : 6,
+      "secondsPlayed" : 990
+    } ],
+    "topArtists" : [ {
+      "name" : "Rainbow Kitten Surprise",
+      "streamCount" : 163,
+      "secondsPlayed" : 24352
+    }, {
+      "name" : "GENER8ION",
+      "streamCount" : 65,
+      "secondsPlayed" : 10279
+    }, {
+      "name" : "Dennis Lloyd",
+      "streamCount" : 51,
+      "secondsPlayed" : 8838
+    }, {
+      "name" : "Yung Lean",
+      "streamCount" : 65,
+      "secondsPlayed" : 10279
+    }, {
+      "name" : "Barbara Pravi",
+      "streamCount" : 31,
+      "secondsPlayed" : 5002
+    }, {
+      "name" : "Banjaare",
+      "streamCount" : 24,
+      "secondsPlayed" : 3812
+    }, {
+      "name" : "Sampha",
+      "streamCount" : 20,
+      "secondsPlayed" : 4343
+    }, {
+      "name" : "BUNT.",
+      "streamCount" : 20,
+      "secondsPlayed" : 3833
+    }, {
+      "name" : "50 Cent",
+      "streamCount" : 17,
+      "secondsPlayed" : 3000
+    }, {
+      "name" : "Swimming Paul",
+      "streamCount" : 12,
+      "secondsPlayed" : 1746
+    } ],
+    "topGenres" : [ ]
+  }, {
+    "date" : "2026-04",
+    "streamCount" : 1745,
+    "secondsPlayed" : 310528,
+    "topTracks" : [ {
+      "name" : "Voilà",
+      "streamCount" : 203,
+      "secondsPlayed" : 33347
+    }, {
+      "name" : "STORM II",
+      "streamCount" : 111,
+      "secondsPlayed" : 17686
+    }, {
+      "name" : "Evergreen",
+      "streamCount" : 106,
+      "secondsPlayed" : 9186
+    }, {
+      "name" : "Lights Burn Dimmer",
+      "streamCount" : 102,
+      "secondsPlayed" : 23323
+    }, {
+      "name" : "reserved...",
+      "streamCount" : 100,
+      "secondsPlayed" : 21774
+    }, {
+      "name" : "Dunno",
+      "streamCount" : 90,
+      "secondsPlayed" : 19393
+    }, {
+      "name" : "Big City Life",
+      "streamCount" : 66,
+      "secondsPlayed" : 9112
+    }, {
+      "name" : "Talk To You (ft. 54 Ultra)",
+      "streamCount" : 32,
+      "secondsPlayed" : 5537
+    }, {
+      "name" : "Don't You Worry Child - Radio Edit",
+      "streamCount" : 30,
+      "secondsPlayed" : 6387
+    }, {
+      "name" : "Boulevard of Broken Dreams",
+      "streamCount" : 23,
+      "secondsPlayed" : 5480
+    } ],
+    "topArtists" : [ {
+      "name" : "Barbara Pravi",
+      "streamCount" : 203,
+      "secondsPlayed" : 33347
+    }, {
+      "name" : "Fred again..",
+      "streamCount" : 192,
+      "secondsPlayed" : 39594
+    }, {
+      "name" : "GENER8ION",
+      "streamCount" : 111,
+      "secondsPlayed" : 17686
+    }, {
+      "name" : "Richy Mitch & The Coal Miners",
+      "streamCount" : 106,
+      "secondsPlayed" : 9186
+    }, {
+      "name" : "Mac Miller",
+      "streamCount" : 105,
+      "secondsPlayed" : 21856
+    }, {
+      "name" : "Berjan",
+      "streamCount" : 100,
+      "secondsPlayed" : 21774
+    }, {
+      "name" : "AP Dhillon",
+      "streamCount" : 68,
+      "secondsPlayed" : 10138
+    }, {
+      "name" : "Luude",
+      "streamCount" : 66,
+      "secondsPlayed" : 9112
+    }, {
+      "name" : "Yung Lean",
+      "streamCount" : 112,
+      "secondsPlayed" : 17840
+    }, {
+      "name" : "Jamie T",
+      "streamCount" : 105,
+      "secondsPlayed" : 23659
+    } ],
+    "topGenres" : [ ],
+    "timeOfDayStats" : [ ]
+  }, {
+    "date" : "2026-03",
+    "streamCount" : 1581,
+    "secondsPlayed" : 307628,
+    "topTracks" : [ {
+      "name" : "Lights Burn Dimmer",
+      "streamCount" : 81,
+      "secondsPlayed" : 19050
+    }, {
+      "name" : "Pal Pal - Talwiinder Verse",
+      "streamCount" : 60,
+      "secondsPlayed" : 3403
+    }, {
+      "name" : "Lisztomania",
+      "streamCount" : 44,
+      "secondsPlayed" : 10205
+    }, {
+      "name" : "Baxter (these are my friends)",
+      "streamCount" : 39,
+      "secondsPlayed" : 9106
+    }, {
+      "name" : "Co2",
+      "streamCount" : 34,
+      "secondsPlayed" : 5407
+    }, {
+      "name" : "My Stress",
+      "streamCount" : 30,
+      "secondsPlayed" : 6261
+    }, {
+      "name" : "Love",
+      "streamCount" : 30,
+      "secondsPlayed" : 5132
+    }, {
+      "name" : "Lights Burn Dimmer",
+      "streamCount" : 28,
+      "secondsPlayed" : 6660
+    }, {
+      "name" : "Little Lion Man",
+      "streamCount" : 26,
+      "secondsPlayed" : 5739
+    }, {
+      "name" : "Home",
+      "streamCount" : 22,
+      "secondsPlayed" : 5992
+    } ],
+    "topArtists" : [ {
+      "name" : "Fred again..",
+      "streamCount" : 251,
+      "secondsPlayed" : 52254
+    }, {
+      "name" : "Jamie T",
+      "streamCount" : 125,
+      "secondsPlayed" : 29270
+    }, {
+      "name" : "Talwiinder",
+      "streamCount" : 61,
+      "secondsPlayed" : 3577
+    }, {
+      "name" : "Phoenix",
+      "streamCount" : 45,
+      "secondsPlayed" : 10468
+    }, {
+      "name" : "Mumford & Sons",
+      "streamCount" : 44,
+      "secondsPlayed" : 8771
+    }, {
+      "name" : "BUNT.",
+      "streamCount" : 44,
+      "secondsPlayed" : 7159
+    }, {
+      "name" : "Anuv Jain",
+      "streamCount" : 40,
+      "secondsPlayed" : 8019
+    }, {
+      "name" : "Prateek Kuhad",
+      "streamCount" : 34,
+      "secondsPlayed" : 5407
+    }, {
+      "name" : "Mac Miller",
+      "streamCount" : 32,
+      "secondsPlayed" : 6144
+    }, {
+      "name" : "NF",
+      "streamCount" : 31,
+      "secondsPlayed" : 6501
+    } ],
+    "topGenres" : [ ],
+    "timeOfDayStats" : [ ]
+  }, {
+    "date" : "2026-02",
+    "streamCount" : 1657,
+    "secondsPlayed" : 357027,
+    "topTracks" : [ {
+      "name" : "Lights Burn Dimmer",
+      "streamCount" : 357,
+      "secondsPlayed" : 88312
+    }, {
+      "name" : "It's Not the Place, It's the People",
+      "streamCount" : 106,
+      "secondsPlayed" : 28391
+    }, {
+      "name" : "Faisal (envelops me)",
+      "streamCount" : 58,
+      "secondsPlayed" : 14570
+    }, {
+      "name" : "Aperture",
+      "streamCount" : 42,
+      "secondsPlayed" : 9524
+    }, {
+      "name" : "Co2",
+      "streamCount" : 42,
+      "secondsPlayed" : 6495
+    }, {
+      "name" : "I can share my love with you",
+      "streamCount" : 40,
+      "secondsPlayed" : 7867
+    }, {
+      "name" : "GFY",
+      "streamCount" : 32,
+      "secondsPlayed" : 5760
+    }, {
+      "name" : "The Adventures of Rain Dance Maggie",
+      "streamCount" : 18,
+      "secondsPlayed" : 4590
+    }, {
+      "name" : "To This Day",
+      "streamCount" : 18,
+      "secondsPlayed" : 3393
+    }, {
+      "name" : "Lisztomania",
+      "streamCount" : 17,
+      "secondsPlayed" : 3452
+    } ],
+    "topArtists" : [ {
+      "name" : "Fred again..",
+      "streamCount" : 436,
+      "secondsPlayed" : 106955
+    }, {
+      "name" : "Jamie T",
+      "streamCount" : 357,
+      "secondsPlayed" : 88312
+    }, {
+      "name" : "Dennis Lloyd",
+      "streamCount" : 172,
+      "secondsPlayed" : 30678
+    }, {
+      "name" : "Lucca Saettone",
+      "streamCount" : 106,
+      "secondsPlayed" : 28391
+    }, {
+      "name" : "Bassi Fox",
+      "streamCount" : 46,
+      "secondsPlayed" : 8845
+    }, {
+      "name" : "Harry Styles",
+      "streamCount" : 42,
+      "secondsPlayed" : 9524
+    }, {
+      "name" : "Prateek Kuhad",
+      "streamCount" : 42,
+      "secondsPlayed" : 6495
+    }, {
+      "name" : "Swimming Paul",
+      "streamCount" : 41,
+      "secondsPlayed" : 7456
+    }, {
+      "name" : "Ben Böhmer",
+      "streamCount" : 29,
+      "secondsPlayed" : 6762
+    }, {
+      "name" : "BUNT.",
+      "streamCount" : 26,
+      "secondsPlayed" : 4007
+    } ],
+    "topGenres" : [ ],
+    "timeOfDayStats" : [ {
+      "period" : "late_evening",
+      "secondsPlayed" : 38954
+    }, {
+      "period" : "afternoon",
+      "secondsPlayed" : 48514
+    }, {
+      "period" : "morning",
+      "secondsPlayed" : 4816
+    }, {
+      "period" : "evening",
+      "secondsPlayed" : 33096
+    }, {
+      "period" : "early_morning",
+      "secondsPlayed" : 13697
+    }, {
+      "period" : "night",
+      "secondsPlayed" : 75094
+    } ]
+  }, {
+    "date" : "2026-01",
+    "streamCount" : 2199,
+    "secondsPlayed" : 442677,
+    "topTracks" : [ {
+      "name" : "It's Not the Place, It's the People",
+      "streamCount" : 185,
+      "secondsPlayed" : 49656
+    }, {
+      "name" : "Lisztomania",
+      "streamCount" : 103,
+      "secondsPlayed" : 23668
+    }, {
+      "name" : "nah",
+      "streamCount" : 83,
+      "secondsPlayed" : 13083
+    }, {
+      "name" : "GFY",
+      "streamCount" : 66,
+      "secondsPlayed" : 12198
+    }, {
+      "name" : "Haseen",
+      "streamCount" : 59,
+      "secondsPlayed" : 10266
+    }, {
+      "name" : "Lullaby",
+      "streamCount" : 42,
+      "secondsPlayed" : 9483
+    }, {
+      "name" : "Circle of Light",
+      "streamCount" : 42,
+      "secondsPlayed" : 8577
+    }, {
+      "name" : "Heya",
+      "streamCount" : 40,
+      "secondsPlayed" : 7364
+    }, {
+      "name" : "Light Me Up",
+      "streamCount" : 39,
+      "secondsPlayed" : 5928
+    }, {
+      "name" : "just stand there",
+      "streamCount" : 32,
+      "secondsPlayed" : 7752
+    } ],
+    "topArtists" : [ {
+      "name" : "Lucca Saettone",
+      "streamCount" : 188,
+      "secondsPlayed" : 50241
+    }, {
+      "name" : "Red Hot Chili Peppers",
+      "streamCount" : 105,
+      "secondsPlayed" : 25086
+    }, {
+      "name" : "Phoenix",
+      "streamCount" : 103,
+      "secondsPlayed" : 23668
+    }, {
+      "name" : "Talwiinder",
+      "streamCount" : 97,
+      "secondsPlayed" : 15815
+    }, {
+      "name" : "Dennis Lloyd",
+      "streamCount" : 97,
+      "secondsPlayed" : 17339
+    }, {
+      "name" : "Khalid",
+      "streamCount" : 90,
+      "secondsPlayed" : 14512
+    }, {
+      "name" : "Kungs",
+      "streamCount" : 81,
+      "secondsPlayed" : 15411
+    }, {
+      "name" : "Fred again..",
+      "streamCount" : 73,
+      "secondsPlayed" : 16810
+    }, {
+      "name" : "Romain Garcia",
+      "streamCount" : 52,
+      "secondsPlayed" : 9269
+    }, {
+      "name" : "Swimming Paul",
+      "streamCount" : 49,
+      "secondsPlayed" : 8703
+    } ],
+    "topGenres" : [ {
+      "name" : "house",
+      "streamCount" : 344,
+      "secondsPlayed" : 130496
+    }, {
+      "name" : "electronic",
+      "streamCount" : 482,
+      "secondsPlayed" : 129026
+    }, {
+      "name" : "electro",
+      "streamCount" : 360,
+      "secondsPlayed" : 98827
+    }, {
+      "name" : "dance",
+      "streamCount" : 259,
+      "secondsPlayed" : 70936
+    }, {
+      "name" : "afro house",
+      "streamCount" : 49,
+      "secondsPlayed" : 59279
+    }, {
+      "name" : "melodic house",
+      "streamCount" : 211,
+      "secondsPlayed" : 57945
+    }, {
+      "name" : "electronica",
+      "streamCount" : 224,
+      "secondsPlayed" : 54656
+    }, {
+      "name" : "electrochill",
+      "streamCount" : 153,
+      "secondsPlayed" : 42422
+    }, {
+      "name" : "edm",
+      "streamCount" : 166,
+      "secondsPlayed" : 42199
+    }, {
+      "name" : "deep house",
+      "streamCount" : 169,
+      "secondsPlayed" : 38680
+    } ],
+    "timeOfDayStats" : [ {
+      "period" : "late_evening",
+      "secondsPlayed" : 65222
+    }, {
+      "period" : "afternoon",
+      "secondsPlayed" : 98264
+    }, {
+      "period" : "morning",
+      "secondsPlayed" : 65505
+    }, {
+      "period" : "evening",
+      "secondsPlayed" : 85276
+    }, {
+      "period" : "early_morning",
+      "secondsPlayed" : 58594
+    }, {
+      "period" : "night",
+      "secondsPlayed" : 69775
+    } ]
+  }, {
+    "date" : "2025-12",
+    "streamCount" : 2257,
+    "secondsPlayed" : 441543,
+    "topTracks" : [ {
+      "name" : "just stand there",
+      "streamCount" : 311,
+      "secondsPlayed" : 76242
+    }, {
+      "name" : "Lisztomania",
+      "streamCount" : 195,
+      "secondsPlayed" : 41423
+    }, {
+      "name" : "JUMP",
+      "streamCount" : 139,
+      "secondsPlayed" : 24657
+    }, {
+      "name" : "Circle of Light",
+      "streamCount" : 102,
+      "secondsPlayed" : 20958
+    }, {
+      "name" : "Lullaby",
+      "streamCount" : 93,
+      "secondsPlayed" : 22072
+    }, {
+      "name" : "Heya",
+      "streamCount" : 72,
+      "secondsPlayed" : 12988
+    }, {
+      "name" : "Tyler Herro",
+      "streamCount" : 44,
+      "secondsPlayed" : 6450
+    }, {
+      "name" : "Chanel",
+      "streamCount" : 31,
+      "secondsPlayed" : 6002
+    }, {
+      "name" : "Ages",
+      "streamCount" : 28,
+      "secondsPlayed" : 5185
+    }, {
+      "name" : "The Days - NOTION Remix",
+      "streamCount" : 23,
+      "secondsPlayed" : 5132
+    } ],
+    "topArtists" : [ {
+      "name" : "Fred again..",
+      "streamCount" : 376,
+      "secondsPlayed" : 89297
+    }, {
+      "name" : "Phoenix",
+      "streamCount" : 196,
+      "secondsPlayed" : 41454
+    }, {
+      "name" : "me n ü",
+      "streamCount" : 164,
+      "secondsPlayed" : 28328
+    }, {
+      "name" : "SOAK",
+      "streamCount" : 311,
+      "secondsPlayed" : 76242
+    }, {
+      "name" : "Kungs",
+      "streamCount" : 133,
+      "secondsPlayed" : 29519
+    }, {
+      "name" : "Because of Art",
+      "streamCount" : 102,
+      "secondsPlayed" : 20958
+    }, {
+      "name" : "Romain Garcia",
+      "streamCount" : 73,
+      "secondsPlayed" : 13163
+    }, {
+      "name" : "Antony Szmierek",
+      "streamCount" : 102,
+      "secondsPlayed" : 20958
+    }, {
+      "name" : "Jack Harlow",
+      "streamCount" : 45,
+      "secondsPlayed" : 6550
+    }, {
+      "name" : "Swimming Paul",
+      "streamCount" : 37,
+      "secondsPlayed" : 6593
+    } ],
+    "topGenres" : [ {
+      "name" : "electronic",
+      "streamCount" : 416,
+      "secondsPlayed" : 196439
+    }, {
+      "name" : "house",
+      "streamCount" : 318,
+      "secondsPlayed" : 148317
+    }, {
+      "name" : "edm",
+      "streamCount" : 173,
+      "secondsPlayed" : 111429
+    }, {
+      "name" : "electro",
+      "streamCount" : 264,
+      "secondsPlayed" : 86037
+    }, {
+      "name" : "dance",
+      "streamCount" : 201,
+      "secondsPlayed" : 78215
+    }, {
+      "name" : "electronica",
+      "streamCount" : 211,
+      "secondsPlayed" : 50583
+    }, {
+      "name" : "indie",
+      "streamCount" : 37,
+      "secondsPlayed" : 46554
+    }, {
+      "name" : "indie pop",
+      "streamCount" : 25,
+      "secondsPlayed" : 43625
+    }, {
+      "name" : "indie disco",
+      "streamCount" : 22,
+      "secondsPlayed" : 43254
+    }, {
+      "name" : "alternative",
+      "streamCount" : 20,
+      "secondsPlayed" : 42383
+    } ],
+    "timeOfDayStats" : [ {
+      "period" : "late_evening",
+      "secondsPlayed" : 65577
+    }, {
+      "period" : "afternoon",
+      "secondsPlayed" : 114966
+    }, {
+      "period" : "morning",
+      "secondsPlayed" : 67614
+    }, {
+      "period" : "evening",
+      "secondsPlayed" : 106511
+    }, {
+      "period" : "early_morning",
+      "secondsPlayed" : 32921
+    }, {
+      "period" : "night",
+      "secondsPlayed" : 53916
+    } ]
+  }, {
+    "date" : "2025-11",
+    "streamCount" : 2165,
+    "secondsPlayed" : 394312,
+    "topTracks" : [ {
+      "name" : "Heer",
+      "streamCount" : 174,
+      "secondsPlayed" : 32381
+    }, {
+      "name" : "Superrich",
+      "streamCount" : 111,
+      "secondsPlayed" : 18330
+    }, {
+      "name" : "Champion",
+      "streamCount" : 96,
+      "secondsPlayed" : 15010
+    }, {
+      "name" : "Chanel",
+      "streamCount" : 76,
+      "secondsPlayed" : 14722
+    }, {
+      "name" : "Angie (i’ve been lost) [feat. Angie McMahon]",
+      "streamCount" : 43,
+      "secondsPlayed" : 11052
+    }, {
+      "name" : "Co2",
+      "streamCount" : 42,
+      "secondsPlayed" : 6267
+    }, {
+      "name" : "The Nights",
+      "streamCount" : 41,
+      "secondsPlayed" : 7043
+    }, {
+      "name" : "I can share my love with you",
+      "streamCount" : 32,
+      "secondsPlayed" : 6232
+    }, {
+      "name" : "Beto’s Horns - fred remix",
+      "streamCount" : 32,
+      "secondsPlayed" : 5906
+    }, {
+      "name" : "Who Are You",
+      "streamCount" : 28,
+      "secondsPlayed" : 7842
+    } ],
+    "topArtists" : [ {
+      "name" : "Fred again..",
+      "streamCount" : 207,
+      "secondsPlayed" : 40803
+    }, {
+      "name" : "Afusic",
+      "streamCount" : 174,
+      "secondsPlayed" : 32381
+    }, {
+      "name" : "Alok",
+      "streamCount" : 112,
+      "secondsPlayed" : 18524
+    }, {
+      "name" : "Kanye West",
+      "streamCount" : 112,
+      "secondsPlayed" : 17610
+    }, {
+      "name" : "AliSoomroMusic",
+      "streamCount" : 174,
+      "secondsPlayed" : 32381
+    }, {
+      "name" : "Frank Ocean",
+      "streamCount" : 77,
+      "secondsPlayed" : 14956
+    }, {
+      "name" : "BUNT.",
+      "streamCount" : 59,
+      "secondsPlayed" : 9667
+    }, {
+      "name" : "me n ü",
+      "streamCount" : 113,
+      "secondsPlayed" : 18730
+    }, {
+      "name" : "Swimming Paul",
+      "streamCount" : 53,
+      "secondsPlayed" : 9496
+    }, {
+      "name" : "Avicii",
+      "streamCount" : 42,
+      "secondsPlayed" : 7254
+    } ],
+    "topGenres" : [ {
+      "name" : "electronic",
+      "streamCount" : 537,
+      "secondsPlayed" : 158629
+    }, {
+      "name" : "house",
+      "streamCount" : 372,
+      "secondsPlayed" : 117314
+    }, {
+      "name" : "electro",
+      "streamCount" : 299,
+      "secondsPlayed" : 79711
+    }, {
+      "name" : "edm",
+      "streamCount" : 216,
+      "secondsPlayed" : 72334
+    }, {
+      "name" : "dance",
+      "streamCount" : 211,
+      "secondsPlayed" : 71161
+    }, {
+      "name" : "electronica",
+      "streamCount" : 253,
+      "secondsPlayed" : 66611
+    }, {
+      "name" : "hip hop",
+      "streamCount" : 105,
+      "secondsPlayed" : 34210
+    }, {
+      "name" : "rap",
+      "streamCount" : 105,
+      "secondsPlayed" : 34080
+    }, {
+      "name" : "indie pop",
+      "streamCount" : 18,
+      "secondsPlayed" : 33453
+    }, {
+      "name" : "indie",
+      "streamCount" : 33,
+      "secondsPlayed" : 33331
+    } ],
+    "timeOfDayStats" : [ {
+      "period" : "late_evening",
+      "secondsPlayed" : 54914
+    }, {
+      "period" : "afternoon",
+      "secondsPlayed" : 97397
+    }, {
+      "period" : "morning",
+      "secondsPlayed" : 59187
+    }, {
+      "period" : "evening",
+      "secondsPlayed" : 63093
+    }, {
+      "period" : "early_morning",
+      "secondsPlayed" : 35604
+    }, {
+      "period" : "night",
+      "secondsPlayed" : 84066
+    } ]
+  }, {
+    "date" : "2025-10",
+    "streamCount" : 1936,
+    "secondsPlayed" : 390029,
+    "topTracks" : [ {
+      "name" : "Husn",
+      "streamCount" : 265,
+      "secondsPlayed" : 57064
+    }, {
+      "name" : "How Many Times",
+      "streamCount" : 82,
+      "secondsPlayed" : 19527
+    }, {
+      "name" : "Hey Hey",
+      "streamCount" : 16,
+      "secondsPlayed" : 4331
+    }, {
+      "name" : "Vacay",
+      "streamCount" : 16,
+      "secondsPlayed" : 2235
+    }, {
+      "name" : "places to be - CLIPZ remix",
+      "streamCount" : 16,
+      "secondsPlayed" : 2197
+    }, {
+      "name" : "Driving Fast",
+      "streamCount" : 15,
+      "secondsPlayed" : 2726
+    }, {
+      "name" : "Liza M1",
+      "streamCount" : 14,
+      "secondsPlayed" : 3044
+    }, {
+      "name" : "Fade to Blue",
+      "streamCount" : 13,
+      "secondsPlayed" : 3417
+    }, {
+      "name" : "Rollin (feat. Future & Khalid)",
+      "streamCount" : 13,
+      "secondsPlayed" : 2159
+    }, {
+      "name" : "ItsNotREEAALLLLLLLL",
+      "streamCount" : 13,
+      "secondsPlayed" : 2929
+    } ],
+    "topArtists" : [ {
+      "name" : "Anuv Jain",
+      "streamCount" : 275,
+      "secondsPlayed" : 58779
+    }, {
+      "name" : "Fred again..",
+      "streamCount" : 174,
+      "secondsPlayed" : 33282
+    }, {
+      "name" : "andhim",
+      "streamCount" : 82,
+      "secondsPlayed" : 19527
+    }, {
+      "name" : "Swimming Paul",
+      "streamCount" : 77,
+      "secondsPlayed" : 14643
+    }, {
+      "name" : "Ben Böhmer",
+      "streamCount" : 58,
+      "secondsPlayed" : 12352
+    }, {
+      "name" : "MEUTE",
+      "streamCount" : 45,
+      "secondsPlayed" : 12854
+    }, {
+      "name" : "Elderbrook",
+      "streamCount" : 82,
+      "secondsPlayed" : 19527
+    }, {
+      "name" : "Trilucid",
+      "streamCount" : 41,
+      "secondsPlayed" : 8069
+    }, {
+      "name" : "BUNT.",
+      "streamCount" : 41,
+      "secondsPlayed" : 6696
+    }, {
+      "name" : "nimino",
+      "streamCount" : 37,
+      "secondsPlayed" : 6720
+    } ],
+    "topGenres" : [ {
+      "name" : "electronic",
+      "streamCount" : 611,
+      "secondsPlayed" : 163136
+    }, {
+      "name" : "electro",
+      "streamCount" : 357,
+      "secondsPlayed" : 85121
+    }, {
+      "name" : "house",
+      "streamCount" : 334,
+      "secondsPlayed" : 80090
+    }, {
+      "name" : "indie",
+      "streamCount" : 15,
+      "secondsPlayed" : 63239
+    }, {
+      "name" : "melodic house",
+      "streamCount" : 266,
+      "secondsPlayed" : 61992
+    }, {
+      "name" : "hindi pop",
+      "streamCount" : 8,
+      "secondsPlayed" : 58397
+    }, {
+      "name" : "electronica",
+      "streamCount" : 234,
+      "secondsPlayed" : 56023
+    }, {
+      "name" : "edm",
+      "streamCount" : 214,
+      "secondsPlayed" : 50347
+    }, {
+      "name" : "dance",
+      "streamCount" : 210,
+      "secondsPlayed" : 49710
+    }, {
+      "name" : "deep house",
+      "streamCount" : 199,
+      "secondsPlayed" : 46105
+    } ],
+    "timeOfDayStats" : [ {
+      "period" : "late_evening",
+      "secondsPlayed" : 90207
+    }, {
+      "period" : "afternoon",
+      "secondsPlayed" : 62836
+    }, {
+      "period" : "morning",
+      "secondsPlayed" : 36503
+    }, {
+      "period" : "evening",
+      "secondsPlayed" : 80856
+    }, {
+      "period" : "early_morning",
+      "secondsPlayed" : 45873
+    }, {
+      "period" : "night",
+      "secondsPlayed" : 73718
+    } ]
+  }, {
+    "date" : "2025-09",
+    "streamCount" : 1688,
+    "secondsPlayed" : 332406,
+    "topTracks" : [ {
+      "name" : "Shook Ones, Pt. III",
+      "streamCount" : 132,
+      "secondsPlayed" : 33723
+    }, {
+      "name" : "Dorothy",
+      "streamCount" : 29,
+      "secondsPlayed" : 8357
+    }, {
+      "name" : "Huntin’ Wabbitz",
+      "streamCount" : 25,
+      "secondsPlayed" : 3763
+    }, {
+      "name" : "Kitse",
+      "streamCount" : 25,
+      "secondsPlayed" : 4525
+    }, {
+      "name" : "Endling",
+      "streamCount" : 24,
+      "secondsPlayed" : 6757
+    }, {
+      "name" : "Vacay",
+      "streamCount" : 22,
+      "secondsPlayed" : 2884
+    }, {
+      "name" : "Shook Ones, Pt. II",
+      "streamCount" : 19,
+      "secondsPlayed" : 5656
+    }, {
+      "name" : "Muse",
+      "streamCount" : 18,
+      "secondsPlayed" : 3337
+    }, {
+      "name" : "White Night",
+      "streamCount" : 16,
+      "secondsPlayed" : 5050
+    }, {
+      "name" : "Come Down",
+      "streamCount" : 14,
+      "secondsPlayed" : 1911
+    } ],
+    "topArtists" : [ {
+      "name" : "Mobb Deep",
+      "streamCount" : 152,
+      "secondsPlayed" : 39647
+    }, {
+      "name" : "Nick Morgan",
+      "streamCount" : 133,
+      "secondsPlayed" : 33911
+    }, {
+      "name" : "Fred again..",
+      "streamCount" : 52,
+      "secondsPlayed" : 10201
+    }, {
+      "name" : "Swimming Paul",
+      "streamCount" : 45,
+      "secondsPlayed" : 9333
+    }, {
+      "name" : "nimino",
+      "streamCount" : 33,
+      "secondsPlayed" : 6781
+    }, {
+      "name" : "Kungs",
+      "streamCount" : 33,
+      "secondsPlayed" : 6550
+    }, {
+      "name" : "J. Cole",
+      "streamCount" : 30,
+      "secondsPlayed" : 4589
+    }, {
+      "name" : "Polo & Pan",
+      "streamCount" : 29,
+      "secondsPlayed" : 8357
+    }, {
+      "name" : "MEUTE",
+      "streamCount" : 29,
+      "secondsPlayed" : 8136
+    }, {
+      "name" : "Rezident",
+      "streamCount" : 27,
+      "secondsPlayed" : 5352
+    } ],
+    "topGenres" : [ {
+      "name" : "electronic",
+      "streamCount" : 513,
+      "secondsPlayed" : 152097
+    }, {
+      "name" : "electro",
+      "streamCount" : 298,
+      "secondsPlayed" : 107801
+    }, {
+      "name" : "house",
+      "streamCount" : 329,
+      "secondsPlayed" : 101589
+    }, {
+      "name" : "electronica",
+      "streamCount" : 228,
+      "secondsPlayed" : 80799
+    }, {
+      "name" : "deep house",
+      "streamCount" : 169,
+      "secondsPlayed" : 39641
+    }, {
+      "name" : "melodic house",
+      "streamCount" : 141,
+      "secondsPlayed" : 34901
+    }, {
+      "name" : "dance",
+      "streamCount" : 160,
+      "secondsPlayed" : 34516
+    }, {
+      "name" : "rap",
+      "streamCount" : 65,
+      "secondsPlayed" : 22277
+    }, {
+      "name" : "edm",
+      "streamCount" : 96,
+      "secondsPlayed" : 21750
+    }, {
+      "name" : "hip hop",
+      "streamCount" : 60,
+      "secondsPlayed" : 20432
+    } ],
+    "timeOfDayStats" : [ ]
+  }, {
+    "date" : "2025-08",
+    "streamCount" : 2307,
+    "secondsPlayed" : 437756,
+    "topTracks" : [ {
+      "name" : "Chains & Whips",
+      "streamCount" : 208,
+      "secondsPlayed" : 47829
+    }, {
+      "name" : "dodger blue (feat. wallie the sensei, siete7x, roddy ricch)",
+      "streamCount" : 136,
+      "secondsPlayed" : 17419
+    }, {
+      "name" : "tv off (feat. lefty gunplay)",
+      "streamCount" : 122,
+      "secondsPlayed" : 26151
+    }, {
+      "name" : "Arc de Triomphe",
+      "streamCount" : 74,
+      "secondsPlayed" : 11490
+    }, {
+      "name" : "Tunes Since '89",
+      "streamCount" : 50,
+      "secondsPlayed" : 10561
+    }, {
+      "name" : "Come Down",
+      "streamCount" : 42,
+      "secondsPlayed" : 6915
+    }, {
+      "name" : "Alag Aasmaan",
+      "streamCount" : 30,
+      "secondsPlayed" : 5950
+    }, {
+      "name" : "I Spy",
+      "streamCount" : 29,
+      "secondsPlayed" : 4613
+    }, {
+      "name" : "The Way I Am",
+      "streamCount" : 29,
+      "secondsPlayed" : 5661
+    }, {
+      "name" : "Sinnerman - Sofi Tukker Remix",
+      "streamCount" : 28,
+      "secondsPlayed" : 6167
+    } ],
+    "topArtists" : [ {
+      "name" : "Kendrick Lamar",
+      "streamCount" : 567,
+      "secondsPlayed" : 111313
+    }, {
+      "name" : "Clipse",
+      "streamCount" : 208,
+      "secondsPlayed" : 47829
+    }, {
+      "name" : "Aminé",
+      "streamCount" : 74,
+      "secondsPlayed" : 11490
+    }, {
+      "name" : "Pharrell Williams",
+      "streamCount" : 208,
+      "secondsPlayed" : 47829
+    }, {
+      "name" : "Wallie the Sensei",
+      "streamCount" : 136,
+      "secondsPlayed" : 17419
+    }, {
+      "name" : "Lefty Gunplay",
+      "streamCount" : 122,
+      "secondsPlayed" : 26151
+    }, {
+      "name" : "Pusha T",
+      "streamCount" : 208,
+      "secondsPlayed" : 47829
+    }, {
+      "name" : "KING BOOO!",
+      "streamCount" : 50,
+      "secondsPlayed" : 10561
+    }, {
+      "name" : "Anderson .Paak",
+      "streamCount" : 53,
+      "secondsPlayed" : 8781
+    }, {
+      "name" : "Siete7x",
+      "streamCount" : 136,
+      "secondsPlayed" : 17419
+    } ],
+    "topGenres" : [ {
+      "name" : "hip hop",
+      "streamCount" : 192,
+      "secondsPlayed" : 142505
+    }, {
+      "name" : "rap",
+      "streamCount" : 176,
+      "secondsPlayed" : 138707
+    }, {
+      "name" : "electronic",
+      "streamCount" : 531,
+      "secondsPlayed" : 137909
+    }, {
+      "name" : "english hip hop",
+      "streamCount" : 178,
+      "secondsPlayed" : 133670
+    }, {
+      "name" : "american hip hop",
+      "streamCount" : 152,
+      "secondsPlayed" : 123814
+    }, {
+      "name" : "electro",
+      "streamCount" : 386,
+      "secondsPlayed" : 94067
+    }, {
+      "name" : "electronica",
+      "streamCount" : 312,
+      "secondsPlayed" : 78060
+    }, {
+      "name" : "conscious hip hop",
+      "streamCount" : 72,
+      "secondsPlayed" : 76829
+    }, {
+      "name" : "house",
+      "streamCount" : 308,
+      "secondsPlayed" : 76783
+    }, {
+      "name" : "west coast hip hop",
+      "streamCount" : 87,
+      "secondsPlayed" : 59963
+    } ],
+    "timeOfDayStats" : [ ]
+  }, {
+    "date" : "2025-07",
+    "streamCount" : 3183,
+    "secondsPlayed" : 611543,
+    "topTracks" : [ {
+      "name" : "Catch & Release - Deepend Remix",
+      "streamCount" : 138,
+      "secondsPlayed" : 25782
+    }, {
+      "name" : "Mutt",
+      "streamCount" : 110,
+      "secondsPlayed" : 21000
+    }, {
+      "name" : "Big Dawgs (feat. Kalmi)",
+      "streamCount" : 89,
+      "secondsPlayed" : 16600
+    }, {
+      "name" : "Cherry Blossom - Vintage Culture Remix",
+      "streamCount" : 54,
+      "secondsPlayed" : 12429
+    }, {
+      "name" : "Sky and Sand",
+      "streamCount" : 53,
+      "secondsPlayed" : 11544
+    }, {
+      "name" : "The Drive",
+      "streamCount" : 46,
+      "secondsPlayed" : 9788
+    }, {
+      "name" : "How To Listen To This Album",
+      "streamCount" : 44,
+      "secondsPlayed" : 6301
+    }, {
+      "name" : "Friends",
+      "streamCount" : 44,
+      "secondsPlayed" : 11098
+    }, {
+      "name" : "For A Better Day",
+      "streamCount" : 43,
+      "secondsPlayed" : 8091
+    }, {
+      "name" : "Victory Lap Five",
+      "streamCount" : 41,
+      "secondsPlayed" : 7632
+    } ],
+    "topArtists" : [ {
+      "name" : "Fred again..",
+      "streamCount" : 151,
+      "secondsPlayed" : 29253
+    }, {
+      "name" : "Matt Simons",
+      "streamCount" : 140,
+      "secondsPlayed" : 26051
+    }, {
+      "name" : "Swimming Paul",
+      "streamCount" : 144,
+      "secondsPlayed" : 27133
+    }, {
+      "name" : "AP Dhillon",
+      "streamCount" : 112,
+      "secondsPlayed" : 14822
+    }, {
+      "name" : "Hanumankind",
+      "streamCount" : 132,
+      "secondsPlayed" : 24521
+    }, {
+      "name" : "Paul Kalkbrenner",
+      "streamCount" : 82,
+      "secondsPlayed" : 20545
+    }, {
+      "name" : "Deepend",
+      "streamCount" : 141,
+      "secondsPlayed" : 26173
+    }, {
+      "name" : "Empire Of The Sun",
+      "streamCount" : 72,
+      "secondsPlayed" : 16219
+    }, {
+      "name" : "Kendrick Lamar",
+      "streamCount" : 64,
+      "secondsPlayed" : 11136
+    }, {
+      "name" : "The Blaze",
+      "streamCount" : 61,
+      "secondsPlayed" : 11134
+    } ],
+    "topGenres" : [ {
+      "name" : "electronic",
+      "streamCount" : 759,
+      "secondsPlayed" : 253205
+    }, {
+      "name" : "electro",
+      "streamCount" : 480,
+      "secondsPlayed" : 172521
+    }, {
+      "name" : "electronica",
+      "streamCount" : 443,
+      "secondsPlayed" : 165349
+    }, {
+      "name" : "house",
+      "streamCount" : 493,
+      "secondsPlayed" : 117242
+    }, {
+      "name" : "dance",
+      "streamCount" : 264,
+      "secondsPlayed" : 100345
+    }, {
+      "name" : "edm",
+      "streamCount" : 258,
+      "secondsPlayed" : 76103
+    }, {
+      "name" : "deep house",
+      "streamCount" : 177,
+      "secondsPlayed" : 63228
+    }, {
+      "name" : "english hip hop",
+      "streamCount" : 115,
+      "secondsPlayed" : 55827
+    }, {
+      "name" : "rap",
+      "streamCount" : 118,
+      "secondsPlayed" : 53446
+    }, {
+      "name" : "hip hop",
+      "streamCount" : 110,
+      "secondsPlayed" : 51769
+    } ],
+    "timeOfDayStats" : [ ]
+  }, {
+    "date" : "2025-06",
+    "streamCount" : 2874,
+    "secondsPlayed" : 530023,
+    "topTracks" : [ {
+      "name" : "Old Money",
+      "streamCount" : 290,
+      "secondsPlayed" : 35313
+    }, {
+      "name" : "STFU",
+      "streamCount" : 263,
+      "secondsPlayed" : 43664
+    }, {
+      "name" : "I Follow Rivers - The Magician Remix",
+      "streamCount" : 98,
+      "secondsPlayed" : 27403
+    }, {
+      "name" : "Sweet Disposition (a moment, a love)",
+      "streamCount" : 90,
+      "secondsPlayed" : 17793
+    }, {
+      "name" : "Moonwalk Away",
+      "streamCount" : 42,
+      "secondsPlayed" : 13187
+    }, {
+      "name" : "doyouwannabemine?",
+      "streamCount" : 31,
+      "secondsPlayed" : 7129
+    }, {
+      "name" : "Natural Blues",
+      "streamCount" : 31,
+      "secondsPlayed" : 4082
+    }, {
+      "name" : "Like The Old Days",
+      "streamCount" : 26,
+      "secondsPlayed" : 5870
+    }, {
+      "name" : "Talking",
+      "streamCount" : 26,
+      "secondsPlayed" : 5060
+    }, {
+      "name" : "Lone Raver",
+      "streamCount" : 25,
+      "secondsPlayed" : 6078
+    } ],
+    "topArtists" : [ {
+      "name" : "AP Dhillon",
+      "streamCount" : 808,
+      "secondsPlayed" : 117221
+    }, {
+      "name" : "Shinda Kahlon",
+      "streamCount" : 341,
+      "secondsPlayed" : 54333
+    }, {
+      "name" : "Lykke Li",
+      "streamCount" : 98,
+      "secondsPlayed" : 27403
+    }, {
+      "name" : "Lost Frequencies",
+      "streamCount" : 92,
+      "secondsPlayed" : 18169
+    }, {
+      "name" : "Shubh",
+      "streamCount" : 84,
+      "secondsPlayed" : 13505
+    }, {
+      "name" : "Elderbrook",
+      "streamCount" : 63,
+      "secondsPlayed" : 11607
+    }, {
+      "name" : "Dennis Lloyd",
+      "streamCount" : 55,
+      "secondsPlayed" : 8287
+    }, {
+      "name" : "Barry Can't Swim",
+      "streamCount" : 51,
+      "secondsPlayed" : 11948
+    }, {
+      "name" : "The Magician",
+      "streamCount" : 98,
+      "secondsPlayed" : 27403
+    }, {
+      "name" : "The Temper Trap",
+      "streamCount" : 90,
+      "secondsPlayed" : 17793
+    } ],
+    "topGenres" : [ {
+      "name" : "electronic",
+      "streamCount" : 374,
+      "secondsPlayed" : 123406
+    }, {
+      "name" : "electronica",
+      "streamCount" : 218,
+      "secondsPlayed" : 70655
+    }, {
+      "name" : "electro",
+      "streamCount" : 238,
+      "secondsPlayed" : 61217
+    }, {
+      "name" : "house",
+      "streamCount" : 208,
+      "secondsPlayed" : 50531
+    }, {
+      "name" : "dance",
+      "streamCount" : 118,
+      "secondsPlayed" : 47196
+    }, {
+      "name" : "electropop",
+      "streamCount" : 26,
+      "secondsPlayed" : 30947
+    }, {
+      "name" : "dance pop",
+      "streamCount" : 46,
+      "secondsPlayed" : 26561
+    }, {
+      "name" : "deep house",
+      "streamCount" : 86,
+      "secondsPlayed" : 25912
+    }, {
+      "name" : "edm",
+      "streamCount" : 96,
+      "secondsPlayed" : 24128
+    }, {
+      "name" : "tropical house",
+      "streamCount" : 12,
+      "secondsPlayed" : 18753
+    } ],
+    "timeOfDayStats" : [ ]
+  } ],
+  "highlights" : [ {
+    "date" : "2026-05-24",
+    "highlightType" : "ON_THIS_PERIOD",
+    "onThisPeriodHighlight" : {
+      "entity" : "La leçon particulière",
+      "nostalgiaPeriod" : "YEAR",
+      "nostalgiaUnitsAgo" : 2
+    }
+  }, {
+    "date" : "2026-05-17",
+    "highlightType" : "TOP_LISTENER",
+    "topListenerHighlight" : {
+      "entity" : "Black Rose",
+      "topPercentile" : 3.7759003162316515E-4
+    }
+  }, {
+    "date" : "2026-05-10",
+    "highlightType" : "FANS_LIKE_YOU",
+    "fansLikeYouHighlight" : {
+      "entity" : "Bairan",
+      "country" : "IN",
+      "position" : 1,
+      "previousPosition" : 1,
+      "numberOfListeners" : 6269274
+    }
+  }, {
+    "date" : "2026-05-03",
+    "highlightType" : "PROPORTION_LISTENING_ENTITY",
+    "proportionListeningHighlight" : {
+      "entity" : "Yung Lean",
+      "listeningPercentage" : 50.69294289656309
+    }
+  }, {
+    "date" : "2026-04-26",
+    "highlightType" : "YOU_STAND_OUT",
+    "youStandOutHighlight" : {
+      "entity" : "AP Dhillon",
+      "country" : "IN",
+      "secondsPlayed" : 5912,
+      "marketAvgSecondsPlayed" : 446.65228
+    }
+  }, {
+    "date" : "2026-04-19",
+    "highlightType" : "STREAKS",
+    "streaksHighlight" : {
+      "entity" : "reserved...",
+      "dayStreaks" : 6
+    }
+  }, {
+    "date" : "2026-04-12",
+    "highlightType" : "MILESTONE",
+    "milestoneHighlight" : {
+      "entity" : "Barbara Pravi",
+      "milestoneListeningSeconds" : 28592
+    }
+  }, {
+    "date" : "2026-04-05",
+    "highlightType" : "ON_THIS_PERIOD",
+    "onThisPeriodHighlight" : {
+      "entity" : "Jo Tum Mere Ho",
+      "nostalgiaPeriod" : "YEAR",
+      "nostalgiaUnitsAgo" : 1
+    }
+  }, {
+    "date" : "2026-04",
+    "highlightType" : "UNLIKE_COMBINATION",
+    "unlikeCombinationHighlight" : {
+      "firstEntity" : "Gamak Sinha",
+      "secondEntity" : "Derrick May"
+    }
+  }, {
+    "date" : "2026-03-29",
+    "highlightType" : "FIRST_TO_DISCOVER",
+    "firstToDiscoverHighlight" : {
+      "entity" : "Turn On The Lights again.. (feat. Future)",
+      "country" : "IN",
+      "position" : 6550
+    }
+  }, {
+    "date" : "2026-03-22",
+    "highlightType" : "TOP_LISTENER",
+    "topListenerHighlight" : {
+      "entity" : "Edward Sharpe & The Magnetic Zeros",
+      "topPercentile" : 0.0012032291776792972
+    }
+  }, {
+    "date" : "2026-03-15",
+    "highlightType" : "STREAKS",
+    "streaksHighlight" : {
+      "entity" : "Fred again..",
+      "dayStreaks" : 6
+    }
+  }, {
+    "date" : "2026-03-08",
+    "highlightType" : "PROPORTION_LISTENING_ENTITY",
+    "proportionListeningHighlight" : {
+      "entity" : "Goa 25",
+      "listeningPercentage" : 47.550764501253944
+    }
+  }, {
+    "date" : "2026-03-01",
+    "highlightType" : "ON_THIS_PERIOD",
+    "onThisPeriodHighlight" : {
+      "entity" : "Welcome to the East - VIP Mix",
+      "nostalgiaPeriod" : "YEAR",
+      "nostalgiaUnitsAgo" : 2
+    }
+  }, {
+    "date" : "2026-03",
+    "highlightType" : "ON_REPEAT",
+    "onRepeatHighlight" : {
+      "entity" : "Lights Burn Dimmer",
+      "streamCount" : 81
+    }
+  }, {
+    "date" : "2026-02-22",
+    "highlightType" : "MILESTONE",
+    "milestoneHighlight" : {
+      "entity" : "Jamie T",
+      "milestoneListeningSeconds" : 56989
+    }
+  }, {
+    "date" : "2026-02-15",
+    "highlightType" : "ON_REPEAT",
+    "onRepeatHighlight" : {
+      "entity" : "I can share my love with you",
+      "streamCount" : 35
+    }
+  }, {
+    "date" : "2026-02-08",
+    "highlightType" : "FIRST_TO_DISCOVER",
+    "firstToDiscoverHighlight" : {
+      "entity" : "Lights Out",
+      "country" : "IN",
+      "position" : 1179
+    }
+  }, {
+    "date" : "2026-02-01",
+    "highlightType" : "TOP_LISTENER",
+    "topListenerHighlight" : {
+      "entity" : "Lucca Saettone",
+      "topPercentile" : 5.063598800939804E-6
+    }
+  }, {
+    "date" : "2026-02",
+    "highlightType" : "UNLIKE_COMBINATION",
+    "unlikeCombinationHighlight" : {
+      "firstEntity" : "Light Me Up",
+      "secondEntity" : "Alag Aasmaan"
+    }
+  }, {
+    "date" : "2026-01-25",
+    "highlightType" : "STREAKS",
+    "streaksHighlight" : {
+      "entity" : "Swimming Paul",
+      "dayStreaks" : 7
+    }
+  }, {
+    "date" : "2026-01-18",
+    "highlightType" : "PROPORTION_LISTENING_ENTITY",
+    "proportionListeningHighlight" : {
+      "entity" : "Khalid",
+      "listeningPercentage" : 29.510465317419133
+    }
+  }, {
+    "date" : "2026-01-11",
+    "highlightType" : "ON_THIS_PERIOD",
+    "onThisPeriodHighlight" : {
+      "entity" : "Flying",
+      "nostalgiaPeriod" : "YEAR",
+      "nostalgiaUnitsAgo" : 1
+    }
+  }, {
+    "date" : "2026-01-04",
+    "highlightType" : "FANS_LIKE_YOU",
+    "fansLikeYouHighlight" : {
+      "entity" : "Haseen",
+      "country" : "IN",
+      "position" : 4,
+      "previousPosition" : 6,
+      "numberOfListeners" : 3969945
+    }
+  }, {
+    "date" : "2026-01",
+    "highlightType" : "YOU_STAND_OUT",
+    "youStandOutHighlight" : {
+      "entity" : "Talwiinder",
+      "country" : "IN",
+      "secondsPlayed" : 15815,
+      "marketAvgSecondsPlayed" : 870.98065
+    }
+  }, {
+    "date" : "2025-12-28",
+    "highlightType" : "ON_REPEAT",
+    "onRepeatHighlight" : {
+      "entity" : "just stand there",
+      "streamCount" : 30
+    }
+  }, {
+    "date" : "2025-12-21",
+    "highlightType" : "TOP_LISTENER",
+    "topListenerHighlight" : {
+      "entity" : "Lisztomania",
+      "topPercentile" : 2.1399758182732535E-5
+    }
+  }, {
+    "date" : "2025-12-14",
+    "highlightType" : "UNLIKE_COMBINATION",
+    "unlikeCombinationHighlight" : {
+      "firstEntity" : "Aminé",
+      "secondEntity" : "Navarry"
+    }
+  }, {
+    "date" : "2025-12-07",
+    "highlightType" : "PROPORTION_LISTENING_ENTITY",
+    "proportionListeningHighlight" : {
+      "entity" : "me n ü",
+      "listeningPercentage" : 23.310739696038397
+    }
+  }, {
+    "date" : "2025-12",
+    "highlightType" : "MILESTONE",
+    "milestoneHighlight" : {
+      "entity" : "Fred again..",
+      "milestoneListeningSeconds" : 89297
+    }
+  }, {
+    "date" : "2025-11-30",
+    "highlightType" : "ON_THIS_PERIOD",
+    "onThisPeriodHighlight" : {
+      "entity" : "L'envol",
+      "nostalgiaPeriod" : "YEAR",
+      "nostalgiaUnitsAgo" : 1
+    }
+  }, {
+    "date" : "2025-11-23",
+    "highlightType" : "FIRST_TO_DISCOVER",
+    "firstToDiscoverHighlight" : {
+      "entity" : "⁠Beto’s Horns - Ezra Collective remix",
+      "country" : "IN",
+      "position" : 9958
+    }
+  }, {
+    "date" : "2025-11-16",
+    "highlightType" : "ON_REPEAT",
+    "onRepeatHighlight" : {
+      "entity" : "Who Are You",
+      "streamCount" : 25
+    }
+  }, {
+    "date" : "2025-11-09",
+    "highlightType" : "MILESTONE",
+    "multiEntityMilestoneHighlight" : {
+      "entities" : [ "AliSoomroMusic", "Afusic", "Fred again..", "Heer", "Champion", "I can share my love with you", "Hey Hey", "Co2", "You" ],
+      "milestoneListeningSeconds" : 124339
+    }
+  }, {
+    "date" : "2025-11",
+    "highlightType" : "STREAKS",
+    "streaksHighlight" : {
+      "entity" : "BUNT.",
+      "dayStreaks" : 13
+    }
+  } ]
+}
