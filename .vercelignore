@@ -1,0 +1,17 @@
+# Streamlit / Python backend — not deployed to Vercel (Next.js lives in web/)
+app.py
+pages/
+scripts/
+tests/
+*.py
+requirements.txt
+pytest.ini
+my_spotify_data/
+spotify_playlists/
+outputs/
+.venv/
+__pycache__/
+.streamlit/
+.env
+.env.*
+!.env.example
