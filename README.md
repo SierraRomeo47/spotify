@@ -194,7 +194,7 @@ Open http://localhost:3000 — default landing is **Role Fit** (`/` redirects th
 ### 3. Deploy
 
 1. Push to GitHub — Vercel redeploys automatically from `main`.
-2. **No dashboard setup required:** root [`vercel.json`](vercel.json) uses `@vercel/static-build` on `web/package.json` (Next.js static export → `web/out`). [`.vercelignore`](.vercelignore) excludes Streamlit and Python files so Vercel never tries a Python entrypoint.
+2. **No dashboard setup required:** root [`vercel.json`](vercel.json) sets `framework: null`, builds `web/` with Next.js static export, and serves files from `web/out` at the site root. [`.vercelignore`](.vercelignore) excludes Streamlit/Python so Vercel never tries a Python entrypoint. **Do not click “Redeploy” on old failed deployments** — that re-runs the old commit; push to `main` or deploy the latest Ready build instead.
 3. Optional: [Vercel](https://vercel.com) → Project Settings → set **Root Directory** to `web` instead if you prefer the Next.js preset (remove root `vercel.json` in that case).
 4. Enable **Vercel Authentication** or password protection for recruiter access.
 5. No `SPOTIPY_*` env vars needed on Vercel (read-only snapshot).

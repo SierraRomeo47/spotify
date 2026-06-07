@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "sierra-romeo-editorial-lab-root",
+  "description": "Monorepo root — production site lives in web/",
+  "scripts": {
+    "vercel-build": "npm ci --prefix web && npm run build --prefix web"
+  }
+}

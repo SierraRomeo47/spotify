@@ -3,16 +3,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "web/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "out"
+        "distDir": "web/out"
       }
     }
   ],
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/$1" }
+    { "handle": "filesystem" }
   ],
   "cleanUrls": true,
   "redirects": [
