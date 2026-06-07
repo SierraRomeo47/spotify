@@ -195,10 +195,17 @@ Open http://localhost:3000 — default landing is **Role Fit** (`/` redirects th
 
 1. Push to a **private** GitHub repo (include `portfolio.json` and `web/package-lock.json`).
 2. [Vercel](https://vercel.com) → Import [SierraRomeo47/spotify](https://github.com/SierraRomeo47/spotify).
-   - **Recommended:** set **Root Directory** to `web`.
-   - **Or** leave root at `.` — root [`vercel.json`](vercel.json) builds `web/` and [`.vercelignore`](.vercelignore) excludes Streamlit `app.py` so Vercel does not treat it as a Python function.
-3. Enable **Vercel Authentication** or password protection for recruiter access.
-4. No `SPOTIPY_*` env vars needed on Vercel (read-only snapshot).
+3. **Required — Project Settings → Build & Deployment:**
+   - **Root Directory:** `web` (pick the folder that shows the Next.js icon)
+   - **Framework Preset:** Next.js
+   - **Output Directory:** leave **empty** (default) — do not set `web/.next`
+   - **Install Command:** `npm ci` (default, runs inside `web/`)
+   - **Build Command:** `npm run build` (default)
+4. Redeploy after saving settings. Do not use legacy `builds` in root `vercel.json` — that causes a successful build but a **404** at the deployment URL.
+5. Enable **Vercel Authentication** or password protection for recruiter access.
+6. No `SPOTIPY_*` env vars needed on Vercel (read-only snapshot).
+
+**Why:** Streamlit `app.py` lives at the repo root (local only). Next.js lives in `web/`. Vercel must use `web` as the project root.
 
 ### 4. Refresh data
 
@@ -250,7 +257,6 @@ sierra_romeo_editorial_lab/
 │   ├── app/               # Routes: home, discovery, culture, curate, role-fit
 │   ├── public/data/portfolio.json
 │   └── vercel.json
-├── vercel.json
 ├── .vercelignore
 ├── config.py
 ├── exportify_loader.py
