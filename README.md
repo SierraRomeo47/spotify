@@ -193,19 +193,11 @@ Open http://localhost:3000 — default landing is **Role Fit** (`/` redirects th
 
 ### 3. Deploy
 
-1. Push to a **private** GitHub repo (include `portfolio.json` and `web/package-lock.json`).
-2. [Vercel](https://vercel.com) → Import [SierraRomeo47/spotify](https://github.com/SierraRomeo47/spotify).
-3. **Required — Project Settings → Build & Deployment:**
-   - **Root Directory:** `web` (pick the folder that shows the Next.js icon)
-   - **Framework Preset:** Next.js
-   - **Output Directory:** leave **empty** (default) — do not set `web/.next`
-   - **Install Command:** `npm ci` (default, runs inside `web/`)
-   - **Build Command:** `npm run build` (default)
-4. Redeploy after saving settings. Do not use legacy `builds` in root `vercel.json` — that causes a successful build but a **404** at the deployment URL.
-5. Enable **Vercel Authentication** or password protection for recruiter access.
-6. No `SPOTIPY_*` env vars needed on Vercel (read-only snapshot).
-
-**Why:** Streamlit `app.py` lives at the repo root (local only). Next.js lives in `web/`. Vercel must use `web` as the project root.
+1. Push to GitHub — Vercel redeploys automatically from `main`.
+2. **No dashboard setup required:** root [`vercel.json`](vercel.json) runs `cd web && npm run build` and serves static files from `web/out`. [`.vercelignore`](.vercelignore) excludes Streamlit `app.py`.
+3. Optional: [Vercel](https://vercel.com) → Project Settings → set **Root Directory** to `web` instead if you prefer the Next.js preset (remove root `vercel.json` in that case).
+4. Enable **Vercel Authentication** or password protection for recruiter access.
+5. No `SPOTIPY_*` env vars needed on Vercel (read-only snapshot).
 
 ### 4. Refresh data
 

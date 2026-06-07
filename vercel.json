@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd web && npm ci",
+  "buildCommand": "cd web && npm run build",
+  "outputDirectory": "web/out",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/role-fit",
+      "permanent": false
+    }
+  ]
+}
