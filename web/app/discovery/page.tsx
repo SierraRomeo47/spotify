@@ -10,7 +10,7 @@ export default function DiscoveryPage() {
     <>
       <PageHeader
         title="Discovery"
-        subtitle="Artists you're leaning into before they become long-term staples — from your listening, not chart data."
+        subtitle="Artists entering rotation before they become long-term staples."
       />
       <DiscoveryClient
         watchlistAll={d.watchlist_all}

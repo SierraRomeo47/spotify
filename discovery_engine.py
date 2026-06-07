@@ -206,12 +206,12 @@ def _suggested_action(row: dict) -> str:
     region = str(row.get("region_tag", ""))
     band = str(row.get("popularity_band", ""))
     if "India" in region and band == "Pre-mainstream":
-        return "Flag for Indian hip-hop export / local breakout playlist"
+        return "Watch for India export slot"
     if "International" in region or "Global" in region:
-        return "Test global→India entry-point placement"
+        return "Test global→India entry"
     if band == "Pre-mainstream":
-        return "Add to Breakout Watch editorial pool"
-    return "Monitor listen velocity; consider sequence slot"
+        return "Breakout watch pool"
+    return "Monitor — sequence candidate"
 
 
 def compute_early_discovery_scores(
@@ -572,142 +572,132 @@ def map_role_fit_to_jd(
     discovery_day = ""
     if not daily.empty:
         d = daily.sort_values("new_artists", ascending=False).iloc[0]
-        discovery_day = f"Peak discovery day **{d['play_date']}** ({int(d['new_artists'])} new artists in window)."
+        discovery_day = (
+            f"Busiest discovery day in this window: **{d['play_date']}** "
+            f"({int(d['new_artists'])} new artists)."
+        )
 
     pl_lines: list[str] = []
     if not playlist_scores.empty:
         for _, row in playlist_scores.head(3).iterrows():
             pl_lines.append(
-                f"**{row['playlist_name']}** — cohesion {row.get('cohesion_score', 0):.0f}, "
-                f"early-slot {row.get('discovery_score', 0):.0f}, "
-                f"India-global bridge {row.get('india_global_bridge_score', 0):.0f}"
+                f"**{row['playlist_name']}** (cohesion {row.get('cohesion_score', 0):.0f}, "
+                f"discovery {row.get('discovery_score', 0):.0f})"
             )
-    pl_block = "; ".join(pl_lines) if pl_lines else "Curate tab: sequenced sets with opener → peak → cooldown and editorial narrative."
+    pl_block = "; ".join(pl_lines) if pl_lines else "See Curate for sequenced sets and playlist scores."
 
     cv = CV_PROFILE
     linkedin = cv["linkedin_url"]
-    india_artists = india_core if india_core != "—" else "AP Dhillon, Shubh, Divine, Seedhe Maut, OtaaL (see Culture & lanes)"
+    india_artists = india_core if india_core != "—" else "see Culture & lanes"
+
+    listening_trends = (
+        f"Recent rotation: {top5}."
+        + (f" Before long-term lock-in: {pre_long}." if pre_long != "—" else "")
+        + (f" Short-term frontier: {frontier}." if frontier != "—" else "")
+    )
+    if discovery_day:
+        listening_trends += f" {discovery_day}"
 
     sections = [
         f"# Role Fit — {cv['target_role']}\n",
-        f"**{cv['name']}** · portfolio alias **{cv['alias']}**\n",
+        f"**{cv['name']}** · {cv['alias']}\n",
         f"{cv['headline']}\n",
         f"{cv['location']} · {cv['contact']}\n",
-        f"LinkedIn: [{linkedin}]({linkedin})\n",
+        f"[LinkedIn]({linkedin})\n",
         "\n",
-        "*Portfolio using authorized personal Spotify data to demonstrate editorial judgment. "
-        "Not affiliated with Spotify; no access to internal chart or audience data.*\n",
+        "*Personal listening data used with authorization. Not affiliated with Spotify; "
+        "no access to internal chart or audience data.*\n",
         "\n",
-        "### Executive summary\n",
-        f"- {CV_JD_BRIDGE['experience']}",
-        f"- **Dual lens (honest):** Recent listening leans **club/electronic** (e.g. Fred again.., &ME); long-term taste includes **India ↔ global hip-hop** ({india_artists}).",
-        f"- {CV_JD_BRIDGE['data']}",
-        f"- {CV_JD_BRIDGE['story']}",
+        "### Summary\n",
+        f"{CV_JD_BRIDGE['experience']}\n",
+        f"Recent plays skew **club/electronic**; long-term taste includes **India ↔ global hip-hop** "
+        f"({india_artists}). {CV_JD_BRIDGE['story']}\n",
+        f"{CV_JD_BRIDGE['data']}\n",
     ]
     if tenure_summary:
-        sections.append(f"- **Listening tenure (API):** {tenure_summary}")
+        sections.append(f"Listening footprint: {tenure_summary}\n")
     exp = exportify_stats or {}
-    if exp.get("master_tracks") and data_source in ("exportify", "api+exportify"):
+    if exp.get("master_tracks") and data_source in ("exportify", "api+exportify", "account+exportify+api"):
         sections.append(
-            f"- **Library depth (Exportify):** {exp.get('master_tracks', 0)} unique tracks across "
-            f"{exp.get('playlists', 0)} exported playlists and {exp.get('liked_tracks', 0)} liked songs — "
-            "genres, popularity, and audio features from personal exports (not live chart data)."
+            f"Library exports: {exp.get('master_tracks', 0)} tracks across "
+            f"{exp.get('playlists', 0)} playlists — genres and audio features from personal exports, "
+            "not live chart data.\n"
         )
     sections.extend(
         [
-        "\n",
-        "---\n",
-        "\n",
-        "## What I'll do (job description)\n",
-        "\n",
-        "### 1. Spot trends, emerging artists, and cultural moments\n",
-        f"- **Listening:** Recent velocity — {top5}.",
-        f"- **Listening:** Artists in rotation before long-term lock-in — {pre_long}.",
-        f"- **Listening:** Short-term-only frontier — {frontier}.",
-        f"- **Listening:** Hip-hop / indie lane — {hiphop_names}.",
-        f"- **Listening:** Early track momentum — {top_tracks}.",
-        (
-            f"- **Listening:** {discovery_day}"
-            if discovery_day
-            else "- **Listening:** Discovery page — plays per day and when new artists enter rotation."
-        ),
-        f"- **Professional:** {CV_JD_BRIDGE['trends']}",
-        "\n",
-        "### 2. Curate playlists — sequencing, storytelling, editorial voice\n",
-        f"- **Listening:** {pl_block}",
-        "- **Listening:** Curate — ~9-year tenure (API top tracks + artist divisions), playlist proof, and editorial concepts "
-        "(*Breakout Watch*, *Global Hip-Hop: India Entry*, *Indian Hip-Hop Export*, *Club Crossover*, *Late Night Mumbai*).",
-        f"- **Professional:** {CV_JD_BRIDGE['curate']}",
-        "\n",
-        "### 3. Bridge global music and Indian audiences; elevate Indian hip-hop globally\n",
-        f"- **Listening:** Long-term anchors — **{india_core}**.",
-        "- **Listening:** Recent club/electronic rotation is a bridge opportunity into India-relevant editorial slots.",
+            "\n---\n",
+            "\n## What I'll do\n",
+            "\n### Spot trends and emerging artists\n",
+            f"{listening_trends}\n",
+            f"Hip-hop / indie lane in current watchlist: {hiphop_names}. "
+            f"Track momentum: {top_tracks}.\n",
+            f"{CV_JD_BRIDGE['trends']}\n",
+            "\n### Curate with sequencing and voice\n",
+            f"Playlist proof: {pl_block}. Editorial concepts on Curate include "
+            "*Breakout Watch*, *Global Hip-Hop: India Entry*, *Indian Hip-Hop Export*, "
+            "*Club Crossover*, and *Late Night Mumbai Flow*.\n",
+            f"{CV_JD_BRIDGE['curate']}\n",
+            "\n### Bridge global music and Indian audiences\n",
+            f"Long-term anchors: **{india_core}**. Recent club/electronic rotation is a natural "
+            "bridge into India-relevant slots.\n",
         ]
     )
     for b in india_insights[:2]:
-        sections.append(f"- **Listening:** {b}")
+        sections.append(f"{b}\n")
     sections.extend(
         [
-            f"- **Professional:** {CV_JD_BRIDGE['india_global']}",
-            "\n",
-            "### 4. Use data and audience insights\n",
+            f"{CV_JD_BRIDGE['india_global']}\n",
+            "\n### Use data and audience insight\n",
         ]
     )
     for b in insights[:3]:
-        sections.append(f"- **Listening:** {b}")
+        sections.append(f"{b}\n")
     sections.extend(
         [
-            f"- **Listening:** Current mode — **{mood}**.",
-            "- **Listening:** Scores use listen velocity and long-term vs short-term absence (popularity often unavailable in Spotify Development API).",
-            f"- **Professional:** {CV_JD_BRIDGE['data']} Built FPL analytics (https://fpl-lac.vercel.app); IIM certifications in Generative AI and data-driven decision-making.",
-            "\n",
-            "### 5. Collaborate with editorial, marketing, and product\n",
-            f"- **Professional:** {CV_JD_BRIDGE['collaborate']}",
-            "\n",
-            "### 6. Artist discovery and storytelling beyond playlists\n",
-            "- **Listening:** Breakout watchlist — programming lane, languages, editorial action (exportable CSV).",
-            f"- **Professional:** {dj_story}",
-            "- **Professional:** IIM Mumbai MBA + maritime sustainability writing (FuelEU / EU ETS insights on LinkedIn).",
-            "\n",
-            "## Who I am (job description)\n",
-            "\n",
-            "| Requirement | How I match |\n",
-            "|-------------|-------------|\n",
+            f"Current listening mode: **{mood}**.\n",
+            f"{CV_JD_BRIDGE['data']} Also built [FPL analytics](https://fpl-lac.vercel.app); "
+            "IIM certifications in Generative AI and data-driven decision-making.\n",
+            "\n### Collaborate across editorial, marketing, and product\n",
+            f"{CV_JD_BRIDGE['collaborate']}\n",
+            "\n### Tell stories beyond playlists\n",
+            f"{dj_story}\n",
+            "IIM Mumbai MBA; maritime sustainability writing on FuelEU / EU ETS (LinkedIn).\n",
+            "\n## How I match the role\n",
+            "\n| Requirement | Match |\n",
+            "|-------------|-------|\n",
             (
-                "| **6+ years in music, media, or entertainment** | "
+                "| 6+ years in music, media, or culture-adjacent work | "
                 + (
-                    f"{tenure_summary} DJ practice & gigs (2021–2023); 12 years Maersk; analytics + FPL app + this lab. |"
+                    f"{tenure_summary} DJ work in Delhi & Ajmer (2021–2023); 12 years Maersk; "
+                    "analytics + FPL app + this lab. |"
                     if tenure_summary
                     else (
-                        f"Spotify since {SPOTIFY_MEMBER_SINCE_YEAR}; DJ practice & gigs (2021–2023); "
+                        f"Spotify since {SPOTIFY_MEMBER_SINCE_YEAR}; DJ work in Delhi & Ajmer; "
                         "12 years Maersk; analytics + FPL app + this lab. |"
                     )
                 )
                 + "\n"
             ),
-            "| **Global culture, hip-hop, India** | Club/electronic in recent plays; desi hip-hop/indie in long-term taste and tagged artists ({india_artists}). |\n",
-            "| **Data-led decisions** | ShipWatch/GeoServe analytics; Python dashboards; this lab. |\n",
-            "| **English (+ Indian languages a plus)** | Professional English for clients and verifiers; Hindi/regional context via India programming lanes. |\n",
-            "| **Collaboration, fast-paced environment** | Cross-functional maritime tech, verifier partnerships, MBA cohort. |\n",
-            "\n",
-            "## Where I'll be\n",
-            "\n",
-            f"- **Mumbai, Maharashtra** — matches role location; open to hybrid work per JD.\n",
-            "\n",
-            "## Experience (from LinkedIn)\n",
+            f"| Global culture, hip-hop, India | Club/electronic in recent plays; desi hip-hop in long-term taste ({india_artists}). |\n",
+            "| Data-led decisions | ShipWatch/GeoServe analytics; Python dashboards; this lab. |\n",
+            "| English (+ Indian languages a plus) | Professional English; Hindi/regional context via India lanes. |\n",
+            "| Collaboration | Cross-functional maritime tech, verifier partnerships, MBA cohort. |\n",
+            "\n## Location\n",
+            "\nMumbai — matches role location; open to hybrid per JD.\n",
+            "\n## Experience\n",
             "\n",
         ]
     )
     for item in CV_EXPERIENCE_HIGHLIGHTS:
-        sections.append(f"- {item}")
-    sections.extend(["\n", "## Certifications\n", "\n"])
+        sections.append(f"- {item}\n")
+    sections.extend(["\n## Certifications\n", "\n"])
     for item in CV_CERTIFICATIONS:
-        sections.append(f"- {item}")
+        sections.append(f"- {item}\n")
     sections.extend(
         [
-            "\n",
-            "---\n",
-            "*Portfolio demonstration only — not affiliated with Spotify. Listening metrics are personal-data heuristics, not official Spotify KPIs.*",
+            "\n---\n",
+            "*Portfolio demonstration only — not affiliated with Spotify. "
+            "Listening metrics are personal heuristics, not official Spotify KPIs.*",
         ]
     )
     return "\n".join(s for s in sections if s is not None and s != "")

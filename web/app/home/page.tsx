@@ -10,7 +10,7 @@ export default function HomePage() {
     <>
       <PageHeader
         title="Home"
-        subtitle="Positioning and DJ narrative — Sierra Romeo Editorial Intelligence Lab."
+        subtitle="Editorial positioning and the room-reading that shaped this portfolio."
       />
       <div className="pills">
         {home.role_pills.map((p) => (
@@ -23,10 +23,10 @@ export default function HomePage() {
         <ReactMarkdown>{home.intro_markdown}</ReactMarkdown>
       </section>
       <section className="card">
-        <h2 style={{ marginTop: 0 }}>Your DJ story</h2>
-        <p style={{ color: "var(--muted)", whiteSpace: "pre-wrap" }}>{home.dj_story}</p>
+        <h2 className="card-title">How I learned to read a room</h2>
+        <p className="body-text">{home.dj_story}</p>
       </section>
-      <p style={{ color: "var(--muted)", fontSize: "0.85rem" }}>
+      <p className="meta-line">
         Data snapshot: {meta.built_at.slice(0, 10)} · {meta.disclaimer}
       </p>
     </>

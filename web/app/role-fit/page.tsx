@@ -12,22 +12,23 @@ export default function RoleFitPage() {
     <>
       <PageHeader
         title="Role Fit Summary"
-        subtitle={`${cv.target_role} — evidence from listening + verified career history.`}
+        subtitle={`${cv.target_role} — listening evidence and verified career history.`}
       />
-      <p>
+      <div className="contact-strip">
         <strong>{cv.name}</strong> · {cv.headline}
         <br />
         <a href={cv.linkedin_url} target="_blank" rel="noreferrer">
           LinkedIn profile
         </a>{" "}
         · {cv.contact}
-      </p>
+      </div>
       <section className="card prose">
         <ReactMarkdown>{role_fit.markdown}</ReactMarkdown>
       </section>
       {role_fit.breakout_preview.length > 0 ? (
         <section className="card">
-          <h2 style={{ marginTop: 0 }}>Top breakout artists (quick reference)</h2>
+          <h2 className="card-title">Top breakout artists</h2>
+          <p className="card-lead">Quick reference from the discovery watchlist.</p>
           <DataTable rows={role_fit.breakout_preview} />
         </section>
       ) : null}

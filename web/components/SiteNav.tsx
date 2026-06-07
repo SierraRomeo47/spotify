@@ -16,22 +16,30 @@ export function SiteNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="site-nav">
-      <Link href="/role-fit" className="brand">
-        {APP_TITLE}
-      </Link>
-      <span style={{ color: "var(--muted)", fontSize: "0.75rem", width: "100%", marginBottom: "0.25rem" }}>
-        {APP_SUBTITLE}
-      </span>
-      {LINKS.map(({ href, label }) => (
-        <Link
-          key={href}
-          href={href}
-          className={pathname === href || (href === "/role-fit" && pathname === "/") ? "active" : ""}
-        >
-          {label}
-        </Link>
-      ))}
-    </nav>
+    <header className="site-header">
+      <div className="site-header-inner">
+        <div className="site-brand-block">
+          <Link href="/role-fit" className="brand">
+            {APP_TITLE}
+          </Link>
+          <p className="site-tagline">{APP_SUBTITLE}</p>
+        </div>
+        <nav className="site-nav-links" aria-label="Main navigation">
+          {LINKS.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className={
+                pathname === href || (href === "/role-fit" && pathname === "/")
+                  ? "active"
+                  : undefined
+              }
+            >
+              {label}
+            </Link>
+          ))}
+        </nav>
+      </div>
+    </header>
   );
 }

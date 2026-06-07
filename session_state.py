@@ -9,12 +9,12 @@ import pandas as pd
 import streamlit as st
 
 from config import (
-    AUTO_BOOTSTRAP_DATA,
     AUTO_ENRICH_GENRES,
     EXPORTIFY_PLAYLISTS_DIR,
     SPOTIFY_CACHE_PATH,
     TIME_RANGES,
 )
+import config
 from data_processing import (
     build_artist_catalog,
     empty_data_bundle,
@@ -80,7 +80,7 @@ def init_session():
 
     st.session_state.setdefault("dj_story", DEFAULT_DJ_STORY)
     st.session_state["initialized"] = True
-    if AUTO_BOOTSTRAP_DATA:
+    if config.AUTO_BOOTSTRAP_DATA:
         bootstrap_data()
 
 

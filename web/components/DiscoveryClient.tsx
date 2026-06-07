@@ -63,34 +63,35 @@ export function DiscoveryClient({
       </select>
 
       <section className="card">
-        <h2 style={{ marginTop: 0 }}>Breakout artist watchlist</h2>
+        <h2 className="card-title">Breakout artist watchlist</h2>
         <DataTable rows={filtered.slice(0, 30)} emptyMessage="No watchlist rows for this filter." />
       </section>
 
       {chartDaily ? (
         <section className="card">
-          <h2 style={{ marginTop: 0 }}>Plays per day</h2>
+          <h2 className="card-title">Plays per day</h2>
           <PlotlyChart data={chartDaily} />
         </section>
       ) : null}
 
       {dailyPlays.length > 0 ? (
         <section className="card">
-          <h2 style={{ marginTop: 0 }}>Daily log</h2>
+          <h2 className="card-title">Daily log</h2>
           <DataTable rows={dailyPlays} />
         </section>
       ) : null}
 
       {trackWatchlist.length > 0 ? (
         <section className="card">
-          <h2 style={{ marginTop: 0 }}>Track watchlist</h2>
+          <h2 className="card-title">Track watchlist</h2>
           <DataTable rows={trackWatchlist} />
         </section>
       ) : null}
 
       {audioProfile && Object.keys(audioProfile).length > 0 ? (
         <section className="card">
-          <h2 style={{ marginTop: 0 }}>Audio profile (Exportify)</h2>
+          <h2 className="card-title">Audio profile</h2>
+          <p className="card-lead">Median features from Exportify library sample.</p>
           <div className="metrics">
             <div className="metric">
               <label>Median tempo</label>

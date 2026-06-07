@@ -38,6 +38,11 @@ from editorial_engine import (
     score_playlists,
 )
 from exportify_loader import summarize_audio_profile
+from employer_display import (
+    filter_records,
+    long_term_track_columns,
+    sequence_track_columns,
+)
 from library_loader import load_local_library_bundle
 from listening_tenure import analyze_listening_tenure, summarize_tenure_for_role_fit
 from utils.charts import bar_chart_simple
@@ -169,6 +174,17 @@ def build_portfolio_site_payload(dj_story: str | None = None) -> dict[str, Any]:
         pl_scores.sort_values(sort_col, ascending=False) if not pl_scores.empty and sort_col in pl_scores.columns else pl_scores
     )
 
+    long_t = tenure.get("long_term_tracks")
+    if long_t is None:
+        long_t = pd.DataFrame()
+    lt_cols = long_term_track_columns(long_t) if not long_t.empty else []
+    if not long_t.empty and lt_cols:
+        long_t_export = long_t.sort_values("rank") if "rank" in long_t.columns else long_t
+        long_t_records = filter_records(df_to_records(long_t_export[lt_cols], limit=50), lt_cols)
+    else:
+        long_t_records = []
+
+    seq_cols = sequence_track_columns()
     sequences: dict[str, Any] = {}
     pool = tracks if not tracks.empty else saved
     if pool is not None and not pool.empty:
@@ -176,9 +192,10 @@ def build_portfolio_site_payload(dj_story: str | None = None) -> dict[str, Any]:
     for concept in EDITORIAL_CONCEPTS[:3]:
         if pool is not None and not pool.empty:
             seq_df, copy = generate_playlist_sequence(pool, concept)
+            seq_export = seq_df[seq_cols] if not seq_df.empty else seq_df
             sequences[concept] = {
                 "narrative": copy,
-                "tracks": df_to_records(seq_df, limit=20),
+                "tracks": filter_records(df_to_records(seq_export, limit=20), seq_cols),
             }
         else:
             sequences[concept] = {"narrative": "No tracks available.", "tracks": []}
@@ -198,10 +215,12 @@ def build_portfolio_site_payload(dj_story: str | None = None) -> dict[str, Any]:
             "cv": CV_PROFILE,
             "role_pills": PROFILE_ROLE_PILLS,
             "intro_markdown": (
-                "**Spotify Editor, Music & Culture (International & Hip-Hop) · Mumbai**\n\n"
-                "- **Discovery** — spot emerging artists before long-term adoption.\n"
-                "- **Culture & lanes** — India ↔ global hip-hop and club/electronic crossovers.\n"
-                "- **Curate** — sequenced playlists; **Role Fit** — JD-mapped summary tied to CV."
+                "I am applying for **Editor, Music & Culture (International & Hip-Hop)** in Mumbai. "
+                "This site is a working portfolio — not a dashboard demo — built from my own listening "
+                "history and editorial judgment.\n\n"
+                "Recent rotation leans club and electronic; long-term taste runs through India-linked "
+                "hip-hop and global crossovers. Each section shows how I would spot momentum, programme "
+                "lanes, and sequence a set with a point of view."
             ),
         },
         "role_fit": {
@@ -241,10 +260,8 @@ def build_portfolio_site_payload(dj_story: str | None = None) -> dict[str, Any]:
                 "genre_divisions": df_to_records(tenure.get("genre_divisions")),
                 "region_divisions": df_to_records(tenure.get("region_divisions")),
                 "scene_divisions": df_to_records(tenure.get("scene_divisions")),
-                "long_term_tracks": df_to_records(
-                    tenure.get("long_term_tracks"),
-                    limit=50,
-                ),
+                "long_term_tracks": long_t_records,
+                "long_term_track_columns": lt_cols,
             },
             "playlist_scores": df_to_records(ranked_scores[score_cols] if score_cols else ranked_scores, limit=25),
             "sequences": sequences,

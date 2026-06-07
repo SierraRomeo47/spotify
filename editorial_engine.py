@@ -29,8 +29,7 @@ def generate_listening_insights(tracks_df: pd.DataFrame, artists_df: pd.DataFram
         if not high.empty:
             names = ", ".join(high["artist_name"].head(3).tolist())
             insights.append(
-                f"Your long-term listening shows high repeat affinity toward {names}, "
-                "suggesting a stable editorial taste base."
+                f"Repeat affinity across time windows: {names} — a stable core to build programming around."
             )
 
     if "time_range" in tracks_df.columns:
@@ -40,8 +39,7 @@ def generate_listening_insights(tracks_df: pd.DataFrame, artists_df: pd.DataFram
             new_artists = [a for a in short.index if a not in long_.index]
             if new_artists:
                 insights.append(
-                    f"Your recent listening has shifted toward {', '.join(new_artists[:3])}, "
-                    "indicating current discovery momentum."
+                    f"Recent shift toward {', '.join(new_artists[:3])} — discovery momentum in the short window."
                 )
 
     if "popularity" in tracks_df.columns:
@@ -49,31 +47,27 @@ def generate_listening_insights(tracks_df: pd.DataFrame, artists_df: pd.DataFram
         if len(pop):
             med = pop.median()
             if med >= 70:
-                insights.append(
-                    f"Median track popularity is {med:.0f}/100 — mainstream-leaning listening profile."
-                )
+                insights.append(f"Median popularity {med:.0f}/100 — mainstream-leaning top tracks.")
             elif med < 50:
-                insights.append(
-                    f"Median track popularity is {med:.0f}/100 — discovery-forward, below-mainstream tilt."
-                )
+                insights.append(f"Median popularity {med:.0f}/100 — discovery-weighted top tracks.")
 
     if "release_year" in tracks_df.columns:
         years = pd.to_numeric(tracks_df["release_year"], errors="coerce").dropna()
         if len(years):
             recent_pct = (years >= datetime.now().year - 2).mean() * 100
             insights.append(
-                f"{recent_pct:.0f}% of top tracks released in the last two years — "
-                + ("recency-weighted taste." if recent_pct > 40 else "catalog-depth orientation.")
+                f"{recent_pct:.0f}% of top tracks from the last two years — "
+                + ("recency-heavy taste." if recent_pct > 40 else "catalog depth over novelty.")
             )
 
     if "explicit" in tracks_df.columns:
         ratio = tracks_df["explicit"].astype(bool).mean() * 100
-        insights.append(f"Explicit content represents {ratio:.0f}% of analyzed tracks.")
+        insights.append(f"Explicit tracks: {ratio:.0f}% of analysed set.")
 
     if "duration_min" in tracks_df.columns:
         avg_d = pd.to_numeric(tracks_df["duration_min"], errors="coerce").mean()
         if pd.notna(avg_d):
-            insights.append(f"Average track length is {avg_d:.1f} minutes — useful for DJ set pacing.")
+            insights.append(f"Average track length {avg_d:.1f} min — useful for set pacing.")
 
     return insights[:7]
 
@@ -89,18 +83,15 @@ def generate_india_global_insights(artists_df: pd.DataFrame) -> list[str]:
     if not global_.empty:
         gnames = ", ".join(global_["artist_name"].head(3).tolist())
         insights.append(
-            f"Artists with high global relevance ({gnames}) are candidates for "
-            "international-to-India playlist concepts."
+            f"Global-facing rotation ({gnames}) — natural candidates for India entry programming."
         )
     if not india.empty:
         inames = ", ".join(india["artist_name"].head(3).tolist())
-        insights.append(
-            f"India-linked artists ({inames}) with repeat appearances can be flagged for export potential."
-        )
+        insights.append(f"India-linked repeat plays ({inames}) — export and diaspora lanes.")
     gr = artists_df.get("genre_bucket", pd.Series(dtype=str))
     hh = (gr == "Hip-Hop/Rap").sum()
     if hh:
-        insights.append(f"{hh} artists classified as Hip-Hop/Rap — core lane for editorial positioning.")
+        insights.append(f"{hh} artists in Hip-Hop/Rap — core editorial lane.")
     return insights[:6]
 
 
@@ -233,8 +224,8 @@ def generate_editorial_note(row: dict | pd.Series, concept: str) -> str:
     yr = row.get("release_year")
     if pd.notna(yr) and yr >= datetime.now().year - 1:
         parts.append("recent release")
-    reason = ", ".join(parts) if parts else "flow placement"
-    return f"{concept}: {reason}"
+    reason = ", ".join(parts) if parts else "flow"
+    return reason
 
 
 def _concept_filter_sort(tracks_df: pd.DataFrame, concept: str) -> pd.DataFrame:
@@ -333,12 +324,10 @@ def generate_editorial_copy(seq_df: pd.DataFrame, concept: str) -> str:
 
     return (
         f"**{concept}**\n\n"
-        f"This sequence opens with **{o['track']}** by {o['artist']} ({o['role']}) — "
-        f"establishing tone without peak energy too early.\n\n"
-        f"The middle section builds through {m_artists}, layering momentum and scene identity.\n\n"
-        f"The peak moment is **{p['track']}** by {p['artist']} — the editorial anchor of the set.\n\n"
-        f"The cooldown keeps the mood with **{c['track']}** by {c['artist']}, "
-        f"leaving room for reflection or a softer landing."
+        f"Opens on **{o['track']}** ({o['artist']}) — {o['role'].lower()}, setting the room without rushing the peak.\n\n"
+        f"Builds through {m_artists}.\n\n"
+        f"Peak: **{p['track']}** ({p['artist']}).\n\n"
+        f"Closes with **{c['track']}** ({c['artist']}) — {c['role'].lower()}."
     )
 
 
@@ -397,7 +386,7 @@ def generate_role_fit_summary(
     sections = [
         "# Role Fit Summary — Editor, Music & Culture\n",
         "## 1. Editorial POV\n",
-        "- Sierra Romeo bridges DJ instinct with data-led editorial thinking for Mumbai and global hip-hop lanes.\n",
+        "- Room-reading from DJ work in Delhi and Ajmer, applied to editorial programming for Mumbai and global hip-hop lanes.\n",
         "- Taste base combines desi hip-hop depth with international crossover curiosity.\n",
         "",
         "## 2. Data-led listening insight\n",

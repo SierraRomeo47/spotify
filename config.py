@@ -139,10 +139,10 @@ INTERNATIONAL_BUCKETS = {
 }
 
 DEFAULT_DJ_STORY = (
-    "Between 2021 and 2023, during a pause from my maritime career, I rebuilt creatively "
-    "through DJ classes, YouTube-led practice, and selected club and private gigs in Mumbai. "
-    "That period sharpened how I read rooms, sequence energy, and spot what listeners lean "
-    "into before it becomes mainstream—skills I now pair with regulated analytics work."
+    "Between 2021 and 2023, after stepping back from the maritime track, I rebuilt creatively "
+    "through DJ classes and long hours of practice in Delhi, with club and private gigs in Delhi "
+    "and Ajmer. That stretch taught me to read a room, sequence energy, and notice what people "
+    "lean into early — instincts I now bring to data-led editorial work."
 )
 
 # CV ↔ Spotify Editor JD (aligned with LinkedIn: sumit-redu-643a66196)
@@ -163,7 +163,7 @@ CV_EXPERIENCE_HIGHLIGHTS = [
     "GeoServe (Apr 2024–Jul 2025) — Senior Emissions Analyst / Emissions Officer: FuelEU calculator in GeoPerform VPS; DNV Veracity API integration (~30% less manual processing).",
     "Scorpio India (Apr 2023–Mar 2024) — Emission Monitoring Officer: voyage and emissions data with DNV; ~20% fewer data discrepancies.",
     "A.P. Moller–Maersk (Jan 2009–Mar 2021) — Dual Cadet → Third Officer → Second Officer: voyage planning, bridge operations, fuel optimisation.",
-    "Career transition (Mar 2021–Apr 2023) — DJ classes, YouTube-led practice, and club/private gigs in Mumbai.",
+    "Career transition (Mar 2021–Apr 2023) — DJ classes and practice in Delhi; club and private gigs in Delhi and Ajmer.",
     "IIM Mumbai — Executive MBA, Logistics Supply Chain & Maritime Management (2024–2026, completing Mar 2026).",
     "Side projects — FPL analytics app (https://fpl-lac.vercel.app); Sierra Romeo Editorial Intelligence Lab (this dashboard).",
 ]
@@ -175,13 +175,13 @@ CV_CERTIFICATIONS = [
 ]
 
 CV_JD_BRIDGE = {
-    "trends": "At ShipWatch I monitor regulatory and performance signals and turn them into playbooks—parallel to spotting artists early via listen velocity in this lab.",
-    "curate": "Voyage sequencing at sea and emissions reporting SOPs map to editorial playlist flow (opener → peak → cooldown) with clear narrative.",
-    "india_global": "Mumbai-based; programme global club/electronic listening for Indian audiences while elevating desi hip-hop in long-term taste.",
-    "data": "Sensor vs report reconciliation, alert rules, and KPI dashboards mirror how this lab reads listener behaviour and playlist metrics.",
-    "collaborate": "Work with verifiers, platform engineers, and enterprise clients (e.g. ADNOC L&S, Navig8 contexts at ShipWatch); comfortable presenting data products.",
-    "story": "DJ practice in 2021–2023 and this portfolio show culture-first storytelling backed by listening evidence.",
-    "experience": "~15 years professional experience (LinkedIn): 12 years at sea with Maersk, emissions analytics since 2023, MBA in progress, plus shipped analytics products—meets the JD’s 6+ years in data-driven, culture-aware work.",
+    "trends": "At ShipWatch I track regulatory signals and turn them into playbooks — the same habit of watching velocity before something becomes obvious.",
+    "curate": "Years of voyage sequencing and emissions reporting taught me how to build a set with a clear arc: opener, lift, peak, release.",
+    "india_global": "Based in Mumbai for the role; my listening spans global club/electronic rotation and desi hip-hop in long-term taste.",
+    "data": "Reconciling sensor data with reports and building alert rules is not unlike reading listen patterns and playlist cohesion here.",
+    "collaborate": "Used to working with verifiers, platform engineers, and fleet clients; comfortable presenting analysis to non-technical stakeholders.",
+    "story": "DJ work in Delhi and Ajmer (2021–2023) and this portfolio show culture-first judgment backed by listening evidence.",
+    "experience": "~15 years professional experience: 12 years at sea with Maersk, emissions analytics since 2023, MBA in progress, plus shipped analytics products.",
 }
 
 # Early discovery scoring (Editor role: spot before mainstream)
@@ -218,15 +218,15 @@ LANGUAGE_KEYWORDS = {
 ROLE_WORKFLOW = "Discover → Program → Tell the story"
 
 ROLE_PAGE_MAP = {
-    "home": "Positioning and DJ narrative",
-    "discovery": "Breakout watchlist and plays per day",
-    "culture": "India export and global entry programming lanes",
-    "curate": "Playlist sequencing proof and your playlist scores",
-    "role_fit": "Job description mapped to your live data",
+    "home": "Who I am and how I read a room",
+    "discovery": "Artists entering rotation before they stick",
+    "culture": "India export and global entry lanes",
+    "curate": "Sequencing proof and playlist scores",
+    "role_fit": "Role evidence from listening and CV",
 }
 
 APP_TITLE = "Sierra Romeo Editorial Intelligence Lab"
-APP_SUBTITLE = "Club & electronic discovery • India ↔ global hip-hop • Editorial programming"
+APP_SUBTITLE = "Editorial portfolio · club discovery · India ↔ global hip-hop"
 FOOTER_TAGLINE = "Music Culture • Editorial Strategy • Data-led Audience Insights"
 DISCLAIMER = (
     "Portfolio project using authorized personal listening data; "

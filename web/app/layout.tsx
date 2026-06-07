@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   description: "Editorial intelligence portfolio — discovery, culture, curate, role fit.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   let footerMeta = "";
   try {

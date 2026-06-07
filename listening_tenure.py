@@ -105,33 +105,32 @@ def analyze_listening_tenure(
 
     insights: list[str] = [
         (
-            f"Spotify member since **{member_since_year}** (~**{years_on_spotify} years**). "
-            "The API does not expose lifetime play counts; this view uses **top tracks**, "
-            "**saved library**, and **recent plays** as your listening fingerprint."
+            f"On Spotify since **{member_since_year}** (~**{years_on_spotify} years**). "
+            "Lifetime play counts are not available via the API; this view uses top tracks, "
+            "saved library, and recent plays."
         ),
         (
-            f"**{unique_songs}** unique songs across merged API windows "
-            f"({metrics['long_term_track_count']} all-time top · "
+            f"**{unique_songs}** unique songs across merged windows "
+            f"({metrics['long_term_track_count']} all-time · "
             f"{metrics['medium_term_track_count']} six-month · "
             f"{metrics['short_term_track_count']} four-week · "
-            f"{metrics['saved_track_count']} saved · "
-            f"{metrics['recent_plays_in_window']} recent plays in fetch window)."
+            f"{metrics['saved_track_count']} saved)."
         ),
         (
-            f"**{unique_artists_catalog}** artists in your editorial catalog "
-            f"({unique_artists_in_tracks} represented in merged top/recent/saved tracks)."
+            f"**{unique_artists_catalog}** artists in the editorial catalog "
+            f"({unique_artists_in_tracks} in merged top/recent/saved tracks)."
         ),
     ]
 
     if not genre_div.empty:
         top_g = genre_div.iloc[0]
         insights.append(
-            f"Artist **genre** lean: **{top_g['division']}** ({int(top_g['count'])} artists)."
+            f"Genre lean: **{top_g['division']}** ({int(top_g['count'])} artists)."
         )
     if not region_div.empty:
         top_r = region_div.iloc[0]
         insights.append(
-            f"Artist **market / region** lean: **{top_r['division']}** ({int(top_r['count'])} artists)."
+            f"Region lean: **{top_r['division']}** ({int(top_r['count'])} artists)."
         )
 
     narrative = _tenure_narrative(metrics, insights)
@@ -150,15 +149,10 @@ def analyze_listening_tenure(
 
 
 def _tenure_narrative(metrics: dict, insights: list[str]) -> str:
-    y = metrics.get("years_on_spotify", 0)
     since = metrics.get("member_since_year", SPOTIFY_MEMBER_SINCE_YEAR)
-    songs = metrics.get("unique_songs_merged", 0)
     return (
-        f"### Listening tenure — API evidence (~{y} years on Spotify)\n\n"
-        f"Since **{since}**, your programming taste is inferred from Spotify’s **top tracks** "
-        f"(including “all time” = `{TIME_RANGE_LABELS['long_term']}`), not lifetime play counts.\n\n"
-        f"Merged catalog: **{songs}** unique songs and **{metrics.get('unique_artists_catalog', 0)}** "
-        "artists with editorial divisions below.\n\n"
+        f"Since **{since}**, taste is inferred from Spotify top tracks "
+        f"({TIME_RANGE_LABELS['long_term']}), not lifetime play counts.\n\n"
         + "\n".join(f"- {i}" for i in insights[:6])
     )
 
@@ -169,6 +163,6 @@ def summarize_tenure_for_role_fit(analysis: dict) -> str:
         return ""
     return (
         f"Spotify since {m['member_since_year']} (~{m['years_on_spotify']} yrs); "
-        f"{m['unique_songs_merged']} unique songs and {m['unique_artists_catalog']} artists "
-        f"across API top-track windows (no lifetime play counts via API)."
+        f"{m['unique_songs_merged']} unique songs, {m['unique_artists_catalog']} artists "
+        f"across top-track windows."
     )

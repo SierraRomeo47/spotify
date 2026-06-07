@@ -11,4 +11,4 @@ export const theme = {
 
 export const APP_TITLE = "Sierra Romeo Editorial Intelligence Lab";
 export const APP_SUBTITLE =
-  "Club & electronic discovery · India ↔ global hip-hop · Editorial programming";
+  "Editorial portfolio · club discovery · India ↔ global hip-hop";

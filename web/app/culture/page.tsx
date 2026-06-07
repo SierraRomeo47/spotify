@@ -10,18 +10,18 @@ export default function CulturePage() {
     <>
       <PageHeader
         title="Culture & programming lanes"
-        subtitle="Club/electronic discovery + India ↔ global hip-hop — programming tables."
+        subtitle="India export lane and global entry points — programming tables from my listening."
       />
       <div className="grid-2">
         <section className="card">
-          <h2 style={{ marginTop: 0 }}>Indian artists — export / diaspora lane</h2>
+          <h2 className="card-title">Indian artists — export / diaspora</h2>
           <DataTable
             rows={culture.india_export}
             emptyMessage="No India-linked artists in current data."
           />
         </section>
         <section className="card">
-          <h2 style={{ marginTop: 0 }}>International → India entry points</h2>
+          <h2 className="card-title">International → India entry</h2>
           <DataTable
             rows={culture.global_entry}
             emptyMessage="No global-entry lane matches in current data."

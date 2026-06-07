@@ -39,6 +39,7 @@ export type PortfolioData = {
       region_divisions: Record<string, unknown>[];
       scene_divisions: Record<string, unknown>[];
       long_term_tracks: Record<string, unknown>[];
+      long_term_track_columns?: string[];
     };
     playlist_scores: Record<string, unknown>[];
     sequences: Record<
